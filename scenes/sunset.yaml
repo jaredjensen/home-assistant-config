@@ -1,0 +1,5 @@
+name: sunset
+entities:
+  group.lights_exterior: on
+  group.lights_landscaping: on
+  group.lights_tv_room: on

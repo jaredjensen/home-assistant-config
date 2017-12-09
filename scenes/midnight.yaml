@@ -1,0 +1,5 @@
+name: midnight
+entities:
+  group.lights_exterior: on
+  group.lights_landscaping: off
+  group.lights_tv_room: off

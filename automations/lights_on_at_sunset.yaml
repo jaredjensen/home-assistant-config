@@ -1,0 +1,10 @@
+alias: Lights on at sunset
+action:
+  entity_id: scene.sunset
+  service: scene.turn_on
+condition: []
+id: '1512764785709'
+trigger:
+- event: sunset
+  offset: -00:30:00
+  platform: sun

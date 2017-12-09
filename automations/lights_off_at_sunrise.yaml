@@ -1,0 +1,10 @@
+alias: Lights off at sunrise
+action:
+  entity_id: scene.sunrise
+  service: scene.turn_on
+condition: []
+id: '1512765192235'
+trigger:
+- event: sunrise
+  offset: +00:30:00
+  platform: sun

@@ -1,0 +1,53 @@
+homeassistant:
+  name: Home
+  latitude: 47.2945
+  longitude: -122.622
+  elevation: 63
+  unit_system: imperial
+  time_zone: America/Los_Angeles
+  customize: !include customize.yaml
+  customize_domain:
+    light:
+      polling_intensity: 2
+    switch:
+      polling_intensity: 1
+
+zwave:
+  usb_path: /dev/ttyUSB0
+  network_key: !secret zwave_network_key
+  polling_interval: 5000
+
+zha:
+  usb_path: /dev/ttyUSB1
+  database_path: zigbee.db
+
+#introduction:
+
+frontend:
+
+config:
+
+http:
+  # api_password: !secret http_password
+  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+  # base_url: example.duckdns.org:8123
+
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
+
+discovery:
+conversation:
+history:
+logbook:
+map:
+sun:
+sensor:
+  - platform: yr
+tts:
+  - platform: google
+
+group: !include_dir_named groups
+automation: !include_dir_list automations
+script: !include scripts.yaml
+scene: !include_dir_list scenes

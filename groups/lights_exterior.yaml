@@ -1,0 +1,6 @@
+name: Exterior lights
+view: yes
+entities:
+  - switch.deck_light
+  - switch.front_garage_lights
+  - switch.patio_lights

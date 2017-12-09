@@ -1,0 +1,5 @@
+name: TV room lights
+view: yes
+entities:
+  - switch.tv_couch_lamp
+  - switch.tv_fireplace_lamp
