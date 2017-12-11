@@ -51,3 +51,12 @@ group: !include_dir_named groups
 automation: !include_dir_list automations
 script: !include scripts.yaml
 scene: !include_dir_list scenes
+
+wemo:
+  static:
+    - 192.168.0.160
+    - 192.168.0.161
+    - 192.168.0.162
+    - 192.168.0.163
+    - 192.168.0.164
+    - 192.168.0.165

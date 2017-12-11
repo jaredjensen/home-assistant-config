@@ -3,7 +3,9 @@ switch.patio_lights:
 switch.front_garage_lights:
   friendly_name: Front door/garage lights
 switch.deck_light:
-  friendly_name: Deck light
+  friendly_name: TV room deck light
+switch.studio_deck_light:
+  friendly_name: Studio deck light
 switch.tv_fireplace_lamp:
   friendly_name: TV room fireplace lamp
 switch.tv_couch_lamp:

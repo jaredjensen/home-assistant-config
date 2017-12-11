@@ -4,3 +4,4 @@ entities:
   - switch.deck_light
   - switch.front_garage_lights
   - switch.patio_lights
+  - switch.studio_deck_light
