@@ -28,9 +28,10 @@ frontend:
 config:
 
 http:
-  # api_password: !secret http_password
-  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-  # base_url: example.duckdns.org:8123
+  api_password: !secret http_password
+  server_port: !secret server_port
+  ssl_certificate: !secret ssl_certificate
+  ssl_key: !secret ssl_key
 
 updater:
   # Optional, allows Home Assistant developers to focus on popular components.
