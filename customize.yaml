@@ -1,3 +1,7 @@
+sensor.linear_wapirz1_motion_sensor_burglar:
+  friendly_name: Garage motion
+sensor.linear_wapirz1_motion_sensor_temperature:
+  friendly_name: Garage temperature
 switch.patio_lights:
   friendly_name: Patio lights
 switch.front_garage_lights:

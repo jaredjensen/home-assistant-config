@@ -13,9 +13,10 @@ homeassistant:
       polling_intensity: 1
 
 zwave:
-  usb_path: /dev/ttyUSB0
+  autoheal: false
   network_key: !secret zwave_network_key
   polling_interval: 5000
+  usb_path: /dev/ttyUSB0
 
 zha:
   usb_path: /dev/ttyUSB1

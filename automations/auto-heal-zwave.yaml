@@ -1,0 +1,6 @@
+alias: Auto-heal Z-Wave
+trigger:
+  platform: time
+  at: '3:00:00'
+action:
+  service: zwave.heal_network
