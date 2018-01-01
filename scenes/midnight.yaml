@@ -1,5 +1,7 @@
 name: midnight
 entities:
+  group.lights_den: off
   group.lights_exterior: on
   group.lights_landscaping: off
+  group.lights_master_bed: off
   group.lights_tv_room: off

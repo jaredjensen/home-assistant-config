@@ -1,5 +1,7 @@
 name: sunrise
 entities:
+  group.lights_den: off
   group.lights_exterior: off
   group.lights_landscaping: off
+  group.lights_master_bed: off
   group.lights_tv_room: off
