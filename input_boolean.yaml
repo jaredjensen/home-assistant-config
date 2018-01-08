@@ -1,0 +1,3 @@
+garage_motion_triggered:
+  name: Garage lights motion triggered
+  initial: off

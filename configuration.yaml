@@ -17,6 +17,11 @@ zwave:
   network_key: !secret zwave_network_key
   polling_interval: 5000
   usb_path: /dev/ttyUSB0
+  device_config:
+    switch.den_window_outlet_switch:
+      polling_intensity: 1
+    switch.tv_window_outlet_switch:
+      polling_intensity: 1
 
 zha:
   usb_path: /dev/ttyUSB1
@@ -50,9 +55,11 @@ tts:
   - platform: google
 
 group: !include_dir_named groups
-automation: !include_dir_list automations
+automation: !include_dir_merge_list automations
 script: !include scripts.yaml
 scene: !include_dir_list scenes
+
+input_boolean: !include input_boolean.yaml
 
 wemo:
   static:

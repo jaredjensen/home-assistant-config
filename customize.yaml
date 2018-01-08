@@ -20,6 +20,8 @@ switch.front_garage_lights:
   friendly_name: Front door/garage lights
 switch.front_step_lights_switch:
   friendly_name: Front steps lights
+switch.garage_lights_switch:
+  friendly_name: Garage lights
 switch.master_bed_lamp:
   friendly_name: Master bedroom lamp
 switch.patio_lights:

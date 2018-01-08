@@ -1,0 +1,28 @@
+- id: SunsetLightsOn
+  alias: Lights on at sunset
+  trigger:
+  - platform: sun
+    event: sunset
+    offset: -00:30:00
+  action:
+    service: scene.turn_on
+    entity_id: scene.sunset
+
+- id: MidnightLightsOff
+  alias: Lights off at midnight
+  trigger:
+  - platform: time
+    at: 00:00:00
+  action:
+    service: scene.turn_on
+    entity_id: scene.midnight
+
+- id: SunriseLightsOff
+  alias: Lights off at sunrise
+  trigger:
+  - platform: sun
+    event: sunrise
+    offset: +00:30:00
+  action:
+    service: scene.turn_on
+    entity_id: scene.sunrise

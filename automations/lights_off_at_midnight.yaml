@@ -1,9 +1,0 @@
-alias: Lights off at midnight
-action:
-  entity_id: scene.midnight
-  service: scene.turn_on
-condition: []
-id: '1512764960656'
-trigger:
-- at: 00:00:00
-  platform: time
