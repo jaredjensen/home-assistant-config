@@ -25,14 +25,14 @@
   condition:
     condition: and
     conditions:
-      - condition: state
-        entity_id: switch.garage_lights_switch
-        state: 'on'
+      #- condition: state
+      #  entity_id: switch.garage_lights_switch
+      #  state: 'on'
       - condition: state
         entity_id: input_boolean.garage_motion_triggered
         state: 'on'
   action:
-  # - service: switch.turn_off
-    # entity_id: switch.garage_lights_switch
+  - service: switch.turn_off
+    entity_id: switch.garage_lights_switch
   - service: homeassistant.turn_off
     entity_id: input_boolean.garage_motion_triggered
