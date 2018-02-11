@@ -1,3 +1,6 @@
+dark_outside:
+  name: Dark outside
+  initial: 'off'
 garage_motion_triggered:
   name: Garage lights motion triggered
-  initial: off
+  initial: 'off'
