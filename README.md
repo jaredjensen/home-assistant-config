@@ -26,7 +26,9 @@ After restarting the SSH Server add-on, you should be able to access HA as `root
 ssh -l root hassio.local
 ```
 
-Once connected, restore configuration from GitHub.
+### Restore Configuration
+
+Connect via ssh and restore the configuration from GitHub.
 
 ```bash
 # Install tools
