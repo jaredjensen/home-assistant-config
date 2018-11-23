@@ -1,9 +1,2 @@
-*
-!*.md
-!*.yaml
-!automations
-!groups
-!scenes
-!.gitignore
 secrets.yaml
 known_devices.yaml
