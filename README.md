@@ -1,4 +1,4 @@
-# HomeAssistant Configuration
+# Home Assistant Configuration
 
 ## Installation
 
