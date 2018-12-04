@@ -22,6 +22,8 @@ switch.front_step_lights_switch:
   friendly_name: Front steps lights
 switch.garage_lights_switch:
   friendly_name: Garage lights
+switch.linear_wapirz1_motion_sensor_sensor:
+  friendly_name: Garage motion sensor
 switch.master_bed_lamp:
   friendly_name: Master bedroom lamp
 switch.patio_lights:
@@ -32,5 +34,7 @@ switch.tv_fireplace_lamp:
   friendly_name: TV room fireplace lamp
 switch.tv_window_outlet_switch:
   friendly_name: TV room window outlet
+zwave.linear_wapirz1_motion_sensor:
+  friendly_name: Garage motion sensor device
 zwave.sigma_designs_uzb_zwave_usb_adapter:
-  friendly_name: ZWave Stick
+  friendly_name: ZWave stick
