@@ -131,15 +131,6 @@
                 "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
                 "device_id": "d93f4e0a7d834bf9a8330fe97bfb3110",
                 "disabled_by": null,
-                "entity_id": "switch.zooz_unknown_type2400_id2400_switch",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "9-72057594193723392"
-            },
-            {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "d93f4e0a7d834bf9a8330fe97bfb3110",
-                "disabled_by": null,
                 "entity_id": "sensor.zooz_unknown_type2400_id2400_alarm_type",
                 "name": null,
                 "platform": "zwave",
@@ -243,6 +234,15 @@
                 "name": "Driveway lights outlet",
                 "platform": "zwave",
                 "unique_id": "4-72057594109837312"
+            },
+            {
+                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
+                "device_id": "d93f4e0a7d834bf9a8330fe97bfb3110",
+                "disabled_by": null,
+                "entity_id": "switch.extender_outlet_switch",
+                "name": "Extender outlet",
+                "platform": "zwave",
+                "unique_id": "9-72057594193723392"
             }
         ]
     },
