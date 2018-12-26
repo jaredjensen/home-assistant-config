@@ -119,15 +119,6 @@
                 "unique_id": "RINCON_949F3E247A6C01400"
             },
             {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zwave.zooz_unknown_type2400_id2400",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "node-9"
-            },
-            {
                 "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
                 "device_id": "d93f4e0a7d834bf9a8330fe97bfb3110",
                 "disabled_by": null,
@@ -243,6 +234,24 @@
                 "name": "Extender outlet",
                 "platform": "zwave",
                 "unique_id": "9-72057594193723392"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.extender_outlet_device",
+                "name": "Extender outlet device",
+                "platform": "zwave",
+                "unique_id": "node-9"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.linear_wapirz1_motion_sensor",
+                "name": "Garage motion sensor device",
+                "platform": "zwave",
+                "unique_id": "node-5"
             }
         ]
     },
