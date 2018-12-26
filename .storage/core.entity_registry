@@ -252,6 +252,60 @@
                 "name": "Garage motion sensor device",
                 "platform": "zwave",
                 "unique_id": "node-5"
+            },
+            {
+                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
+                "device_id": "43f00c16c60144ad8fe63cd47d6437e9",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.linear_wapirz1_motion_sensor_sensor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594126794752"
+            },
+            {
+                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
+                "device_id": "43f00c16c60144ad8fe63cd47d6437e9",
+                "disabled_by": null,
+                "entity_id": "sensor.linear_wapirz1_motion_sensor_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594127859713"
+            },
+            {
+                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
+                "device_id": "43f00c16c60144ad8fe63cd47d6437e9",
+                "disabled_by": null,
+                "entity_id": "sensor.linear_wapirz1_motion_sensor_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594127859729"
+            },
+            {
+                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
+                "device_id": "43f00c16c60144ad8fe63cd47d6437e9",
+                "disabled_by": null,
+                "entity_id": "sensor.linear_wapirz1_motion_sensor_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594127859745"
+            },
+            {
+                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
+                "device_id": "43f00c16c60144ad8fe63cd47d6437e9",
+                "disabled_by": null,
+                "entity_id": "sensor.linear_wapirz1_motion_sensor_burglar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594127859873"
+            },
+            {
+                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
+                "device_id": "43f00c16c60144ad8fe63cd47d6437e9",
+                "disabled_by": null,
+                "entity_id": "sensor.linear_wapirz1_motion_sensor_temperature",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594126811154"
             }
         ]
     },

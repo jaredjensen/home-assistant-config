@@ -48,3 +48,5 @@ zwave.sigma_designs_uzb_zwave_usb_adapter:
   friendly_name: ZWave stick device
 zwave.tv_window_outlet_switch:
   friendly_name: TV window outlet device
+sensor.zwavelinear_wapirz1_motion_sensor_alarm_level:
+  friendly_name: Garage motion alarm level
