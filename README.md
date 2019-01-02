@@ -11,7 +11,13 @@
 
 ### SSH Server Add-On
 
-Configure via the web interface. Get the key from `~/.ssh/id_rsa.pub` or generate a new one. Do not enter a password.
+Configure via the web interface. Get the key from `~/.ssh/id_rsa.pub` or generate a new one.
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@domain.com"
+```
+
+Add the key to the authorized list in the HA SSH add-on.
 
 ```json
 {
