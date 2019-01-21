@@ -64,3 +64,15 @@ wemo:
     - 192.168.0.163
     - 192.168.0.164
     - 192.168.0.165
+
+media_player:
+  - platform: samsungtv
+    host: 192.168.0.187
+    port: 8001
+    mac: 28:39:5E:97:04:C7
+    name: Samsung TV
+
+logger:
+  default: info
+  # logs:
+  #   homeassistant.components.media_player: debug

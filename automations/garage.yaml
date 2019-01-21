@@ -3,36 +3,41 @@
   trigger:
     - platform: state
       entity_id: sensor.linear_wapirz1_motion_sensor_alarm_level
-      to: "255"
+      to: '255'
   condition:
-    condition: and
-    conditions:
-      - condition: state
-        entity_id: switch.garage_lights_switch
-        state: "off"
-  #    - condition: state
-  #      entity_id: input_boolean.dark_outside
-  #      state: 'on'
+    - condition: state
+      entity_id: switch.garage_lights_switch
+      state: 'off'
   action:
     - service: switch.turn_on
       entity_id: switch.garage_lights_switch
     - service: homeassistant.turn_on
       entity_id: input_boolean.garage_motion_triggered
-
 - id: GarageMotionOff
   alias: Garage motion off
   trigger:
     - platform: state
       entity_id: sensor.linear_wapirz1_motion_sensor_alarm_level
-      to: "0"
+      to: '0'
   condition:
-    condition: and
-    conditions:
-      - condition: state
-        entity_id: input_boolean.garage_motion_triggered
-        state: "on"
+    - condition: state
+      entity_id: input_boolean.garage_motion_triggered
+      state: 'on'
   action:
     - service: switch.turn_off
       entity_id: switch.garage_lights_switch
     - service: homeassistant.turn_off
       entity_id: input_boolean.garage_motion_triggered
+# - id: GarageMotionOverride
+#   alias: Garage motion override
+#   trigger:
+#     - platform: state
+#       entity_id: switch.garage_lights_switch
+#       to: 'on'
+#   condition:
+#     - condition: state
+#       entity_id: switch.garage_lights_switch
+#       state: 'on'
+#   action:
+#     - service: homeassistant.turn_off
+#       entity_id: input_boolean.garage_motion_triggered

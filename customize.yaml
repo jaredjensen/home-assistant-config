@@ -1,3 +1,7 @@
+media_player.samsung_tv:
+  friendly_name: Samsung TV device
+media_player.samsung_7_series_49_un49mu7000:
+  friendly_name: Samsung TV
 sensor.linear_wapirz1_motion_sensor_alarm_level:
   friendly_name: Garage motion alarm level
 sensor.linear_wapirz1_motion_sensor_alarm_type:
