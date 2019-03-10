@@ -73,6 +73,4 @@ media_player:
     name: Samsung TV
 
 logger:
-  default: info
-  # logs:
-  #   homeassistant.components.media_player: debug
+  default: critical
