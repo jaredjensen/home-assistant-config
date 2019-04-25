@@ -43,7 +43,7 @@ apk add openssl
 
 # Generate self-signed SSL certificate
 openssl req -sha256 -newkey rsa:4096 -nodes \
-  -keyout privkey.pem -x509 -days 730 -out /ssl/certificate.pem
+  -keyout /ssl/privkey.pem -x509 -days 730 -out /ssl/fullchain.pem
 
 ## Restore configuration
 cd /config
