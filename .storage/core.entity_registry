@@ -119,8 +119,8 @@
                 "unique_id": "RINCON_949F3E247A6C01400"
             },
             {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "d93f4e0a7d834bf9a8330fe97bfb3110",
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "d63ff9d162aa4a6a98588fea6b62cd63",
                 "disabled_by": null,
                 "entity_id": "sensor.zooz_unknown_type2400_id2400_alarm_type",
                 "name": null,
@@ -128,8 +128,8 @@
                 "unique_id": "9-72057594194968577"
             },
             {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "d93f4e0a7d834bf9a8330fe97bfb3110",
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "d63ff9d162aa4a6a98588fea6b62cd63",
                 "disabled_by": null,
                 "entity_id": "sensor.zooz_unknown_type2400_id2400_alarm_level",
                 "name": null,
@@ -137,8 +137,8 @@
                 "unique_id": "9-72057594194968593"
             },
             {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "07b253519fbd49ed8da5f2d6bcedb083",
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "fcaf5e9c43834d63966e05c74fa91954",
                 "disabled_by": null,
                 "entity_id": "switch.front_step_lights_switch",
                 "name": "Front steps lights",
@@ -146,8 +146,8 @@
                 "unique_id": "3-72057594093060096"
             },
             {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "f668082568cb4df4b37e02ee28bd70c1",
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "3a899d46bdbf4e6e81155b43112e02a6",
                 "disabled_by": null,
                 "entity_id": "switch.tv_window_outlet_switch",
                 "name": "TV room window outlet",
@@ -191,8 +191,8 @@
                 "unique_id": "node-8"
             },
             {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "ba7602a59f114bd4b69fd3eb1a651165",
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "a1ee8dbc6dd149ab81720c5354480db9",
                 "disabled_by": null,
                 "entity_id": "switch.den_window_outlet_switch",
                 "name": "Den window outlet",
@@ -209,8 +209,8 @@
                 "unique_id": "node-11"
             },
             {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "b8c88ffddf2d43d086da7d771b11b055",
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "5d0da29bc6754fd399801c3f6edfd808",
                 "disabled_by": null,
                 "entity_id": "switch.garage_lights_switch",
                 "name": "Garage lights",
@@ -218,8 +218,8 @@
                 "unique_id": "10-72057594210500608"
             },
             {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "61f381b7a5e448629cc18ab188ea475d",
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "231b01d91d1d4776b3a7ec81ccdab53e",
                 "disabled_by": null,
                 "entity_id": "switch.driveway_lights_switch",
                 "name": "Driveway lights outlet",
@@ -227,8 +227,8 @@
                 "unique_id": "4-72057594109837312"
             },
             {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "d93f4e0a7d834bf9a8330fe97bfb3110",
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "d63ff9d162aa4a6a98588fea6b62cd63",
                 "disabled_by": null,
                 "entity_id": "switch.extender_outlet_switch",
                 "name": "Extender outlet",
@@ -254,8 +254,8 @@
                 "unique_id": "node-5"
             },
             {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "43f00c16c60144ad8fe63cd47d6437e9",
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "c2b9914b716a45a085c95b8081fbfacf",
                 "disabled_by": null,
                 "entity_id": "binary_sensor.linear_wapirz1_motion_sensor_sensor",
                 "name": null,
@@ -263,8 +263,8 @@
                 "unique_id": "5-72057594126794752"
             },
             {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "43f00c16c60144ad8fe63cd47d6437e9",
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "c2b9914b716a45a085c95b8081fbfacf",
                 "disabled_by": null,
                 "entity_id": "sensor.linear_wapirz1_motion_sensor_alarm_type",
                 "name": null,
@@ -272,8 +272,8 @@
                 "unique_id": "5-72057594127859713"
             },
             {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "43f00c16c60144ad8fe63cd47d6437e9",
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "c2b9914b716a45a085c95b8081fbfacf",
                 "disabled_by": null,
                 "entity_id": "sensor.linear_wapirz1_motion_sensor_alarm_level",
                 "name": null,
@@ -281,8 +281,8 @@
                 "unique_id": "5-72057594127859729"
             },
             {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "43f00c16c60144ad8fe63cd47d6437e9",
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "c2b9914b716a45a085c95b8081fbfacf",
                 "disabled_by": null,
                 "entity_id": "sensor.linear_wapirz1_motion_sensor_sourcenodeid",
                 "name": null,
@@ -290,8 +290,8 @@
                 "unique_id": "5-72057594127859745"
             },
             {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "43f00c16c60144ad8fe63cd47d6437e9",
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "c2b9914b716a45a085c95b8081fbfacf",
                 "disabled_by": null,
                 "entity_id": "sensor.linear_wapirz1_motion_sensor_burglar",
                 "name": null,
@@ -299,13 +299,31 @@
                 "unique_id": "5-72057594127859873"
             },
             {
-                "config_entry_id": "bcdbb072170e426d8f7d0caa6a8e76de",
-                "device_id": "43f00c16c60144ad8fe63cd47d6437e9",
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "c2b9914b716a45a085c95b8081fbfacf",
                 "disabled_by": null,
                 "entity_id": "sensor.linear_wapirz1_motion_sensor_temperature",
                 "name": null,
                 "platform": "zwave",
                 "unique_id": "5-72057594126811154"
+            },
+            {
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "0b7df1ac6f5a4c9f8eef393bd889f45a",
+                "disabled_by": null,
+                "entity_id": "switch.tv_left_outlet_switch",
+                "name": "TV left outlet",
+                "platform": "zwave",
+                "unique_id": "12-72057594244055040"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.tv_left_outlet_switch",
+                "name": "TV window outlet device",
+                "platform": "zwave",
+                "unique_id": "node-12"
             }
         ]
     },
