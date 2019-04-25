@@ -34,8 +34,10 @@ switch.patio_lights:
   friendly_name: Patio lights
 switch.studio_deck_light:
   friendly_name: Studio deck light
+switch.tv_left_outlet_switch:
+  friendly_name: TV room outlet left of TV
 switch.tv_fireplace_lamp:
-  friendly_name: TV room fireplace lamp
+  friendly_name: TV room outlet by slider
 switch.tv_window_outlet_switch:
   friendly_name: TV room window outlet
 zwave.driveway_lights_switch:
@@ -50,6 +52,8 @@ zwave.linear_wapirz1_motion_sensor:
   friendly_name: Garage motion sensor device
 zwave.sigma_designs_uzb_zwave_usb_adapter:
   friendly_name: ZWave stick device
+zwave.tv_left_outlet_switch:
+  friendly_name: TV outlet left device
 zwave.tv_window_outlet_switch:
   friendly_name: TV window outlet device
 sensor.zwavelinear_wapirz1_motion_sensor_alarm_level:
