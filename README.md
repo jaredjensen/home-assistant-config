@@ -69,6 +69,32 @@ Now restore `/config/secrets.yaml` by copying the file, editing in `vi`, or what
 }
 ```
 
+### Back Up Configuration
+
+Commit and push changes to remote repo.
+
+**If you're using HTTPS with 2FA enabled**, you'll need to use a [personal access token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) instead of your password. I save mine in my password manager.
+
+## Manage Devices
+
+### Add Device
+
+1. In HA web interface, go to Configuration > Z-Wave > Add Node (or Add Node Secure)
+1. Put the device in "add" mode (usually pressing a button)
+1. Go to the Node Information dialog on the Device States page and rename it, e.g.
+   - Name: TV left outlet
+   - Entity ID: switch.tv_left_outlet_switch
+1. Update customize.yaml with same names
+1. Add device to groups and/or automations
+
+## Common Commands
+
+| Command            | Purpose                        |
+| ------------------ | ------------------------------ |
+| hassio ha check    | Validate current configuration |
+| hassio ha restart  | Restart homeassistant          |
+| hassio host reboot | Reboots the host machine       |
+
 ## Reference
 
 [Getting Started Guide](https://www.home-assistant.io/getting-started/)
