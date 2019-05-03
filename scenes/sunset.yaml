@@ -1,6 +1,7 @@
 name: sunset
 entities:
   group.lights_den: on
+  group.lights_elie: on
   group.lights_exterior: on
   group.lights_landscaping: on
   group.lights_master_bed: on
