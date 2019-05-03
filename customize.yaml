@@ -18,6 +18,8 @@ switch.deck_light:
   friendly_name: TV room deck light
 switch.driveway_lights_switch:
   friendly_name: Driveway lights
+switch.elie_bedside_switch:
+  friendly_name: Elie's bedside
 switch.extender_outlet_switch:
   friendly_name: Extender outlet
 switch.front_garage_lights:
@@ -42,6 +44,8 @@ switch.tv_window_outlet_switch:
   friendly_name: TV room window outlet
 zwave.driveway_lights_switch:
   friendly_name: Driveway lights outlet device
+zwave.elie_bedside_device:
+  friendly_name: Elie's bedside device
 zwave.extender_outlet_switch:
   friendly_name: Extender outlet device
 zwave.front_step_lights_switch:
