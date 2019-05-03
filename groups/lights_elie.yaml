@@ -1,0 +1,4 @@
+name: Elie's lights
+view: yes
+entities:
+  - switch.elie_bedside_switch
