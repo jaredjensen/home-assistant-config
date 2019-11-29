@@ -1,7 +1,15 @@
-media_player.samsung_tv:
-  friendly_name: Samsung TV device
+media_player.garage:
+  friendly_name: Garage Sonos
+media_player.master_bedroom:
+  friendly_name: Master bedroom Sonos
 media_player.samsung_7_series_49_un49mu7000:
   friendly_name: Samsung TV
+media_player.studio_lr:
+  friendly_name: Studio LR Sonos
+media_player.studio_sub:
+  friendly_name: Studio sub Sonos
+media_player.tv:
+  friendly_name: TV playbar Sonos
 sensor.linear_wapirz1_motion_sensor_alarm_level:
   friendly_name: Garage motion alarm level
 sensor.linear_wapirz1_motion_sensor_alarm_type:
@@ -12,53 +20,51 @@ sensor.linear_wapirz1_motion_sensor_sensor:
   friendly_name: Garage motion sensor
 sensor.linear_wapirz1_motion_sensor_temperature:
   friendly_name: Garage temperature
-switch.den_window_outlet_switch:
-  friendly_name: Den window outlet
-switch.deck_light:
-  friendly_name: TV room deck light
-switch.driveway_lights_switch:
+switch.den_window_outlet:
+  friendly_name: Den couch lamp
+switch.deck_light_switch:
+  friendly_name: Living room deck light
+switch.driveway_lights_outlet:
   friendly_name: Driveway lights
-switch.elie_bedside_switch:
-  friendly_name: Elie's bedside
-switch.extender_outlet_switch:
+switch.elie_bedside_outlet:
+  friendly_name: Elie's nightstand lamp
+switch.extender_outlet:
   friendly_name: Extender outlet
-switch.front_garage_lights:
-  friendly_name: Front door/garage lights
-switch.front_step_lights_switch:
+switch.front_garage_lights_switch:
+  friendly_name: Front door and garage lights
+switch.front_step_lights_outlet:
   friendly_name: Front steps lights
 switch.garage_lights_switch:
   friendly_name: Garage lights
-switch.linear_wapirz1_motion_sensor_sensor:
-  friendly_name: Garage motion sensor
-switch.master_bed_lamp:
+switch.master_bed_lamp_outlet:
   friendly_name: Master bedroom lamp
-switch.patio_lights:
+switch.patio_lights_switch:
   friendly_name: Patio lights
-switch.studio_deck_light:
+switch.studio_deck_light_switch:
   friendly_name: Studio deck light
-switch.tv_left_outlet_switch:
-  friendly_name: TV room outlet left of TV
-switch.tv_fireplace_lamp:
-  friendly_name: TV room outlet by slider
-switch.tv_window_outlet_switch:
-  friendly_name: TV room window outlet
-zwave.driveway_lights_switch:
-  friendly_name: Driveway lights outlet device
-zwave.elie_bedside_device:
-  friendly_name: Elie's bedside device
-zwave.extender_outlet_switch:
-  friendly_name: Extender outlet device
-zwave.front_step_lights_switch:
-  friendly_name: Front step lights outlet device
+switch.living_room_tv_left_outlet:
+  friendly_name: Living room TV lamp
+switch.living_room_slider_right_outlet:
+  friendly_name: Living room couch lamp
+switch.living_room_window_outlet:
+  friendly_name: Living room window outlet
+zwave.driveway_lights_outlet:
+  friendly_name: Driveway lights outlet
+zwave.elie_bedside_outlet:
+  friendly_name: Elie's bedside outlet
+zwave.extender_outlet:
+  friendly_name: Extender outlet
+zwave.front_step_lights_outlet:
+  friendly_name: Front step lights outlet
 zwave.garage_lights_switch:
-  friendly_name: Garage lights switch device
+  friendly_name: Garage lights switch
 zwave.linear_wapirz1_motion_sensor:
   friendly_name: Garage motion sensor device
 zwave.sigma_designs_uzb_zwave_usb_adapter:
   friendly_name: ZWave stick device
-zwave.tv_left_outlet_switch:
-  friendly_name: TV outlet left device
-zwave.tv_window_outlet_switch:
-  friendly_name: TV window outlet device
+zwave.living_room_tv_left_outlet:
+  friendly_name: Living room TV lamp
+zwave.living_room_window_outlet:
+  friendly_name: Living room window outlet
 sensor.zwavelinear_wapirz1_motion_sensor_alarm_level:
   friendly_name: Garage motion alarm level

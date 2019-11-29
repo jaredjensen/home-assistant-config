@@ -1,4 +1,4 @@
 name: Master bed lights
 view: yes
 entities:
-  - switch.master_bed_lamp
+  - switch.master_bed_lamp_outlet

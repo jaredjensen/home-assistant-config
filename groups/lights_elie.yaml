@@ -1,4 +1,4 @@
 name: Elie's lights
 view: yes
 entities:
-  - switch.elie_bedside_switch
+  - switch.elie_bedside_outlet

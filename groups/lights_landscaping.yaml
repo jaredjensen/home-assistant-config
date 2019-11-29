@@ -1,5 +1,5 @@
 name: Landscaping lights
 view: yes
 entities:
-  - switch.driveway_lights_switch
-  - switch.front_step_lights_switch
+  - switch.driveway_lights_outlet
+  - switch.front_step_lights_outlet
