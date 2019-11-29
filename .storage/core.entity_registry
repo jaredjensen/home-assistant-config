@@ -1,350 +1,386 @@
 {
-  "data": {
-    "entities": [
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "media_player.samsung_7_series_49_un49mu7000",
-        "name": null,
-        "platform": "samsungtv",
-        "unique_id": "e10e2c6c-9e48-4f95-b8f2-78bce689e93b"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "switch.tv_fireplace_lamp",
-        "name": null,
-        "platform": "wemo",
-        "unique_id": "221535K0100629"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "switch.master_bed_lamp",
-        "name": null,
-        "platform": "wemo",
-        "unique_id": "221535K0100384"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "switch.deck_light",
-        "name": null,
-        "platform": "wemo",
-        "unique_id": "221703K1300BE6"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "switch.patio_lights",
-        "name": null,
-        "platform": "wemo",
-        "unique_id": "221703K1300E9E"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "switch.front_garage_lights",
-        "name": null,
-        "platform": "wemo",
-        "unique_id": "221642K130076E"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "switch.studio_deck_light",
-        "name": null,
-        "platform": "wemo",
-        "unique_id": "221703K1300EC5"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "zwave.sigma_designs_uzb_zwave_usb_adapter",
-        "name": null,
-        "platform": "zwave",
-        "unique_id": "node-1"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": "f7af4828763a4e7daa0dc6b2c9daa792",
-        "disabled_by": null,
-        "entity_id": "media_player.garage",
-        "name": null,
-        "platform": "sonos",
-        "unique_id": "RINCON_000E5812E59401400"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": "ce9624b71b6542d6b3bb8cbcea6b4a74",
-        "disabled_by": null,
-        "entity_id": "media_player.guest_bedroom",
-        "name": null,
-        "platform": "sonos",
-        "unique_id": "RINCON_B8E93782FC6001400"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": "b31e4e72a7e741878d5bb32bb9858d84",
-        "disabled_by": null,
-        "entity_id": "media_player.tv",
-        "name": null,
-        "platform": "sonos",
-        "unique_id": "RINCON_949F3E682E3901400"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": "cf6936be3a5c4a4ab1b511387376bdb6",
-        "disabled_by": null,
-        "entity_id": "media_player.studio_lr",
-        "name": null,
-        "platform": "sonos",
-        "unique_id": "RINCON_5CAAFD9B3C5E01400"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": "9a0b7df00473496e8daa0bb122865dbd",
-        "disabled_by": null,
-        "entity_id": "media_player.studio_sub",
-        "name": null,
-        "platform": "sonos",
-        "unique_id": "RINCON_949F3E247A6C01400"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "d63ff9d162aa4a6a98588fea6b62cd63",
-        "disabled_by": null,
-        "entity_id": "sensor.zooz_unknown_type2400_id2400_alarm_type",
-        "name": null,
-        "platform": "zwave",
-        "unique_id": "9-72057594194968577"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "d63ff9d162aa4a6a98588fea6b62cd63",
-        "disabled_by": null,
-        "entity_id": "sensor.zooz_unknown_type2400_id2400_alarm_level",
-        "name": null,
-        "platform": "zwave",
-        "unique_id": "9-72057594194968593"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "fcaf5e9c43834d63966e05c74fa91954",
-        "disabled_by": null,
-        "entity_id": "switch.front_step_lights_switch",
-        "name": "Front steps lights",
-        "platform": "zwave",
-        "unique_id": "3-72057594093060096"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "3a899d46bdbf4e6e81155b43112e02a6",
-        "disabled_by": null,
-        "entity_id": "switch.tv_window_outlet_switch",
-        "name": "TV room window outlet",
-        "platform": "zwave",
-        "unique_id": "11-72057594227277824"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "zwave.garage_lights_switch",
-        "name": "Garage lights switch",
-        "platform": "zwave",
-        "unique_id": "node-10"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "zwave.driveway_lights_switch",
-        "name": "Driveway lights outlet",
-        "platform": "zwave",
-        "unique_id": "node-4"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "zwave.front_step_lights_switch",
-        "name": "Front steps lights outlet",
-        "platform": "zwave",
-        "unique_id": "node-3"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "zwave.den_window_outlet_switch",
-        "name": "Den window outlet",
-        "platform": "zwave",
-        "unique_id": "node-8"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "a1ee8dbc6dd149ab81720c5354480db9",
-        "disabled_by": null,
-        "entity_id": "switch.den_window_outlet_switch",
-        "name": "Den window outlet",
-        "platform": "zwave",
-        "unique_id": "8-72057594176946176"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "zwave.tv_window_outlet_switch",
-        "name": "TV room window outlet",
-        "platform": "zwave",
-        "unique_id": "node-11"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "5d0da29bc6754fd399801c3f6edfd808",
-        "disabled_by": null,
-        "entity_id": "switch.garage_lights_switch",
-        "name": "Garage lights",
-        "platform": "zwave",
-        "unique_id": "10-72057594210500608"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "231b01d91d1d4776b3a7ec81ccdab53e",
-        "disabled_by": null,
-        "entity_id": "switch.driveway_lights_switch",
-        "name": "Driveway lights outlet",
-        "platform": "zwave",
-        "unique_id": "4-72057594109837312"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "d63ff9d162aa4a6a98588fea6b62cd63",
-        "disabled_by": null,
-        "entity_id": "switch.extender_outlet_switch",
-        "name": "Extender outlet",
-        "platform": "zwave",
-        "unique_id": "9-72057594193723392"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "zwave.extender_outlet_device",
-        "name": "Extender outlet device",
-        "platform": "zwave",
-        "unique_id": "node-9"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "zwave.linear_wapirz1_motion_sensor",
-        "name": "Garage motion sensor device",
-        "platform": "zwave",
-        "unique_id": "node-5"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "c2b9914b716a45a085c95b8081fbfacf",
-        "disabled_by": null,
-        "entity_id": "binary_sensor.linear_wapirz1_motion_sensor_sensor",
-        "name": null,
-        "platform": "zwave",
-        "unique_id": "5-72057594126794752"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "c2b9914b716a45a085c95b8081fbfacf",
-        "disabled_by": null,
-        "entity_id": "sensor.linear_wapirz1_motion_sensor_alarm_type",
-        "name": null,
-        "platform": "zwave",
-        "unique_id": "5-72057594127859713"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "c2b9914b716a45a085c95b8081fbfacf",
-        "disabled_by": null,
-        "entity_id": "sensor.linear_wapirz1_motion_sensor_alarm_level",
-        "name": null,
-        "platform": "zwave",
-        "unique_id": "5-72057594127859729"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "c2b9914b716a45a085c95b8081fbfacf",
-        "disabled_by": null,
-        "entity_id": "sensor.linear_wapirz1_motion_sensor_sourcenodeid",
-        "name": null,
-        "platform": "zwave",
-        "unique_id": "5-72057594127859745"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "c2b9914b716a45a085c95b8081fbfacf",
-        "disabled_by": null,
-        "entity_id": "sensor.linear_wapirz1_motion_sensor_burglar",
-        "name": null,
-        "platform": "zwave",
-        "unique_id": "5-72057594127859873"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "c2b9914b716a45a085c95b8081fbfacf",
-        "disabled_by": null,
-        "entity_id": "sensor.linear_wapirz1_motion_sensor_temperature",
-        "name": null,
-        "platform": "zwave",
-        "unique_id": "5-72057594126811154"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "0b7df1ac6f5a4c9f8eef393bd889f45a",
-        "disabled_by": null,
-        "entity_id": "switch.tv_left_outlet_switch",
-        "name": "TV left outlet",
-        "platform": "zwave",
-        "unique_id": "12-72057594244055040"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "zwave.tv_left_outlet_switch",
-        "name": "TV window outlet device",
-        "platform": "zwave",
-        "unique_id": "node-12"
-      },
-      {
-        "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
-        "device_id": "7e51975f3cca493bafe58c9872c67dbf",
-        "disabled_by": null,
-        "entity_id": "switch.elie_bedside_switch",
-        "name": "Elie's bedside",
-        "platform": "zwave",
-        "unique_id": "13-72057594260832256"
-      },
-      {
-        "config_entry_id": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_id": "zwave.elie_bedside_device",
-        "name": "Elie's bedside device",
-        "platform": "zwave",
-        "unique_id": "node-13"
-      }
-    ]
-  },
-  "key": "core.entity_registry",
-  "version": 1
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.samsung_7_series_49_un49mu7000",
+                "name": null,
+                "platform": "samsungtv",
+                "unique_id": "e10e2c6c-9e48-4f95-b8f2-78bce689e93b"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.tv_fireplace_lamp",
+                "name": null,
+                "platform": "wemo",
+                "unique_id": "221535K0100629"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "fa1c144dde7741b2a986d40707208fba",
+                "disabled_by": null,
+                "entity_id": "zwave.sigma_designs_uzb_zwave_usb_adapter",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": "f7af4828763a4e7daa0dc6b2c9daa792",
+                "disabled_by": null,
+                "entity_id": "media_player.garage",
+                "name": null,
+                "platform": "sonos",
+                "unique_id": "RINCON_000E5812E59401400"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": "ce9624b71b6542d6b3bb8cbcea6b4a74",
+                "disabled_by": null,
+                "entity_id": "media_player.guest_bedroom",
+                "name": null,
+                "platform": "sonos",
+                "unique_id": "RINCON_B8E93782FC6001400"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": "b31e4e72a7e741878d5bb32bb9858d84",
+                "disabled_by": null,
+                "entity_id": "media_player.tv",
+                "name": null,
+                "platform": "sonos",
+                "unique_id": "RINCON_949F3E682E3901400"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": "cf6936be3a5c4a4ab1b511387376bdb6",
+                "disabled_by": null,
+                "entity_id": "media_player.studio_lr",
+                "name": null,
+                "platform": "sonos",
+                "unique_id": "RINCON_5CAAFD9B3C5E01400"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": "9a0b7df00473496e8daa0bb122865dbd",
+                "disabled_by": null,
+                "entity_id": "media_player.studio_sub",
+                "name": null,
+                "platform": "sonos",
+                "unique_id": "RINCON_949F3E247A6C01400"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "6be18f9c2e2f420f8426c05de66c3359",
+                "disabled_by": null,
+                "entity_id": "sensor.zooz_unknown_type2400_id2400_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-72057594194968577"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "6be18f9c2e2f420f8426c05de66c3359",
+                "disabled_by": null,
+                "entity_id": "sensor.zooz_unknown_type2400_id2400_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-72057594194968593"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "29e772a5e3b743098571b89357eedb81",
+                "disabled_by": null,
+                "entity_id": "zwave.den_window_outlet_switch",
+                "name": "Den window outlet",
+                "platform": "zwave",
+                "unique_id": "node-8"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.linear_wapirz1_motion_sensor",
+                "name": "Garage motion sensor device",
+                "platform": "zwave",
+                "unique_id": "node-5"
+            },
+            {
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "c2b9914b716a45a085c95b8081fbfacf",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.linear_wapirz1_motion_sensor_sensor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594126794752"
+            },
+            {
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "c2b9914b716a45a085c95b8081fbfacf",
+                "disabled_by": null,
+                "entity_id": "sensor.linear_wapirz1_motion_sensor_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594127859713"
+            },
+            {
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "c2b9914b716a45a085c95b8081fbfacf",
+                "disabled_by": null,
+                "entity_id": "sensor.linear_wapirz1_motion_sensor_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594127859729"
+            },
+            {
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "c2b9914b716a45a085c95b8081fbfacf",
+                "disabled_by": null,
+                "entity_id": "sensor.linear_wapirz1_motion_sensor_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594127859745"
+            },
+            {
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "c2b9914b716a45a085c95b8081fbfacf",
+                "disabled_by": null,
+                "entity_id": "sensor.linear_wapirz1_motion_sensor_burglar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594127859873"
+            },
+            {
+                "config_entry_id": "95864a1eba0443199988a6ed6729d8c8",
+                "device_id": "c2b9914b716a45a085c95b8081fbfacf",
+                "disabled_by": null,
+                "entity_id": "sensor.linear_wapirz1_motion_sensor_temperature",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594126811154"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.updater",
+                "name": null,
+                "platform": "updater",
+                "unique_id": "updater"
+            },
+            {
+                "config_entry_id": "def5c2df6c724b998eb6dd740286cd16",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "weather.home",
+                "name": null,
+                "platform": "met",
+                "unique_id": "home"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "d125dccbe61e48f79f8074ec0ea6ac7e",
+                "disabled_by": null,
+                "entity_id": "zwave.living_room_slider_right_outlet",
+                "name": "Living room slider right outlet device",
+                "platform": "zwave",
+                "unique_id": "node-14"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "d125dccbe61e48f79f8074ec0ea6ac7e",
+                "disabled_by": null,
+                "entity_id": "switch.living_room_slider_right_outlet",
+                "name": "Living room couch lamp",
+                "platform": "zwave",
+                "unique_id": "14-72057594277609472"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "497705095bba4712bf25977f9491497d",
+                "disabled_by": null,
+                "entity_id": "zwave.garage_lights_switch",
+                "name": "Garage lights",
+                "platform": "zwave",
+                "unique_id": "node-10"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "c807a9b66ce34618b15d90f5488a7e64",
+                "disabled_by": null,
+                "entity_id": "zwave.elie_bedside_outlet",
+                "name": "Elie's bedside device",
+                "platform": "zwave",
+                "unique_id": "node-13"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "6be18f9c2e2f420f8426c05de66c3359",
+                "disabled_by": null,
+                "entity_id": "zwave.extender_outlet",
+                "name": "Extender outlet device",
+                "platform": "zwave",
+                "unique_id": "node-9"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "29e772a5e3b743098571b89357eedb81",
+                "disabled_by": null,
+                "entity_id": "switch.den_window_outlet",
+                "name": "Den lamp",
+                "platform": "zwave",
+                "unique_id": "8-72057594176946176"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "6be18f9c2e2f420f8426c05de66c3359",
+                "disabled_by": null,
+                "entity_id": "switch.extender_outlet",
+                "name": "Extender outlet",
+                "platform": "zwave",
+                "unique_id": "9-72057594193723392"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.studio_deck_light_switch",
+                "name": "Studio deck light",
+                "platform": "wemo",
+                "unique_id": "221703K1300EC5"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.patio_lights_switch",
+                "name": "Patio lights",
+                "platform": "wemo",
+                "unique_id": "221703K1300E9E"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.master_bed_lamp_outlet",
+                "name": "Master bedroom lamp",
+                "platform": "wemo",
+                "unique_id": "221535K0100384"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "497705095bba4712bf25977f9491497d",
+                "disabled_by": null,
+                "entity_id": "switch.garage_lights_switch",
+                "name": "Garage lights",
+                "platform": "zwave",
+                "unique_id": "10-72057594210500608"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "8b27be1767794c55a7295985267b8ee2",
+                "disabled_by": null,
+                "entity_id": "switch.front_step_lights_outlet",
+                "name": "Front steps lights",
+                "platform": "zwave",
+                "unique_id": "3-72057594093060096"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.front_garage_lights_switch",
+                "name": "Front door and garage lights",
+                "platform": "wemo",
+                "unique_id": "221642K130076E"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "c807a9b66ce34618b15d90f5488a7e64",
+                "disabled_by": null,
+                "entity_id": "switch.elie_bedside_outlet",
+                "name": "Elie's bedside",
+                "platform": "zwave",
+                "unique_id": "13-72057594260832256"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "d1a6ee9816aa440bafec42dbcd911111",
+                "disabled_by": null,
+                "entity_id": "switch.driveway_lights_outlet",
+                "name": "Driveway lights",
+                "platform": "zwave",
+                "unique_id": "4-72057594109837312"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "436266ce2bbe4340a28f5aaa6554d634",
+                "disabled_by": null,
+                "entity_id": "switch.living_room_tv_left_outlet",
+                "name": "TV lamp",
+                "platform": "zwave",
+                "unique_id": "12-72057594244055040"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.deck_light_switch",
+                "name": "Deck lights",
+                "platform": "wemo",
+                "unique_id": "221703K1300BE6"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "775d3d7eb85443e0b5a681256e6aacfb",
+                "disabled_by": null,
+                "entity_id": "switch.living_room_window_outlet",
+                "name": "Living room window outlet",
+                "platform": "zwave",
+                "unique_id": "11-72057594227277824"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "436266ce2bbe4340a28f5aaa6554d634",
+                "disabled_by": null,
+                "entity_id": "zwave.living_room_tv_left_outlet",
+                "name": "Living room window outlet",
+                "platform": "zwave",
+                "unique_id": "node-12"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "775d3d7eb85443e0b5a681256e6aacfb",
+                "disabled_by": null,
+                "entity_id": "zwave.living_room_window_outlet",
+                "name": "Living room window outlet",
+                "platform": "zwave",
+                "unique_id": "node-11"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "d1a6ee9816aa440bafec42dbcd911111",
+                "disabled_by": null,
+                "entity_id": "zwave.driveway_lights_outlet",
+                "name": "Driveway lights outlet",
+                "platform": "zwave",
+                "unique_id": "node-4"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "8b27be1767794c55a7295985267b8ee2",
+                "disabled_by": null,
+                "entity_id": "zwave.front_step_lights_outlet",
+                "name": "Front steps lights outlet",
+                "platform": "zwave",
+                "unique_id": "node-3"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
 }
