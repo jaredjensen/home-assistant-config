@@ -1,4 +1,4 @@
 name: Den lights
 view: yes
 entities:
-  - switch.den_window_outlet_switch
+  - switch.den_window_outlet

@@ -1,6 +1,0 @@
-name: TV room lights
-view: yes
-entities:
-  - switch.tv_fireplace_lamp
-  - switch.tv_window_outlet_switch
-  - switch.tv_left_outlet_switch

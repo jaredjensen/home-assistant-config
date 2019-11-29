@@ -1,0 +1,6 @@
+name: Living room lights
+view: yes
+entities:
+  - switch.living_room_tv_left_outlet
+  - switch.living_room_slider_right_outlet
+  - switch.living_room_window_outlet
