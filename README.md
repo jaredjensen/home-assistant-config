@@ -94,6 +94,7 @@ Commit and push changes to remote repo.
 | ----------------------------- | ------------------------------------------------------------------- |
 | .storage/core.config          | JSON file of system info (time zone, location, etc)                 |
 | .storage/core.config_entries  | JSON file of integrations (zwave, wemo, etc)                        |
+| .storage/core.area_registry   | JSON file of defined areas                                          |
 | .storage/core.device_registry | JSON file of physical devices                                       |
 | .storage/core.entity_registry | JSON file of virtual entities mapped to devices \*                  |
 | configuration.yaml            | Core HA configuration                                               |
@@ -111,6 +112,93 @@ A quick way to list entity ID is to copy core.entity_registry to a browser conso
 var x = {copied JSON}
 x.data.entities.map(y => console.log(y.entity_id + ' = ' + y.name))
 ```
+
+### Areas
+
+Areas are defined in `.storage/core.area_registry`. These are self-explanatory.
+
+```json
+{
+  "data": {
+    "areas": [
+      {
+        "id": "96947473e7ad4656aafac955110e1812",
+        "name": "Living Room"
+      },
+      ...
+    ]
+  }
+}
+```
+
+### Devices
+
+Devices are defined in `.storage/core.device_registry`. Notable properties:
+
+| Property         | Purpose                                 |
+| ---------------- | --------------------------------------- |
+| `area_id`        | The ID of the area to put the device in |
+| `config_entries` | Config entry IDs linked to this device  |
+| `id`             | A unique identifier for this device     |
+| `name`           | The name as reported by the device      |
+| `name_by_user`   | An optional friendly name               |
+
+```json
+{
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "aae134ab961f4ef4bbc60ba86810bfd6"
+        ],
+        "connections": [],
+        "id": "fa1c144dde7741b2a986d40707208fba",
+        "identifiers": [
+          [ "zwave", 1 ]
+        ],
+        "manufacturer": "Z-Wave (Sigma Designs)",
+        "model": "UZB Z-Wave USB Adapter",
+        "name": "Z-Wave (Sigma Designs) UZB Z-Wave USB Adapter",
+        "name_by_user": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      ...
+    ]
+  }
+}
+```
+
+### Entities
+
+Entities are defined in `.storage/core.entity_registry`. Notable properties:
+
+| Property          | Purpose                                                                         |
+| ----------------- | ------------------------------------------------------------------------------- |
+| `config_entry_id` | The ID of the config entry to associate the entity to (not sure what this does) |
+| `device_id`       | Not sure what provides this ID                                                  |
+| `unique_id`       | A unique identifier for this entity                                             |
+| `name`            | The name of the entity; can be changed                                          |
+
+```json
+{
+  "data": {
+    "entities": [
+      {
+        "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+        "device_id": "29e772a5e3b743098571b89357eedb81",
+        "disabled_by": null,
+        "entity_id": "zwave.den_window_outlet_switch",
+        "name": "Den window outlet",
+        "platform": "zwave",
+        "unique_id": "node-8"
+      },
+      ...
+    ]
+  }
+}
+``` 
 
 ## Common Commands
 
