@@ -1,0 +1,192 @@
+{
+    "data": [
+        {
+            "last_seen": "2020-10-18T18:41:34.001682+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Dark outside"
+                },
+                "context": {
+                    "id": "7fe29ddd506a45f587f6ebb2939e187f",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.dark_outside",
+                "last_changed": "2020-10-18T18:26:31.756809+00:00",
+                "last_updated": "2020-10-18T18:26:31.756809+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-10-18T18:41:34.001682+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Garage lights motion triggered"
+                },
+                "context": {
+                    "id": "47f684aa02a648daade6b3fdc7f4d90c",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.garage_motion_triggered",
+                "last_changed": "2020-10-18T18:26:31.757121+00:00",
+                "last_updated": "2020-10-18T18:26:31.757121+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-10-18T18:41:34.001682+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Auto-heal Z-Wave",
+                    "id": "ZWaveAutoHeal",
+                    "last_triggered": "2020-10-18T10:00:00.005798+00:00"
+                },
+                "context": {
+                    "id": "e635089ffc574dda851cedecc3beedaa",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.auto_heal_z_wave",
+                "last_changed": "2020-10-18T18:26:31.904500+00:00",
+                "last_updated": "2020-10-18T18:26:31.904500+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-10-18T18:41:34.001682+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Garage motion off",
+                    "id": "GarageMotionOff",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "580b1853cdca41c5982bab5912db4489",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.garage_motion_off",
+                "last_changed": "2020-10-18T18:26:31.904845+00:00",
+                "last_updated": "2020-10-18T18:26:31.904845+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-10-18T18:41:34.001682+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Dark outside on",
+                    "id": "DarkOutsideOn",
+                    "last_triggered": "2020-10-18T00:50:35.009131+00:00"
+                },
+                "context": {
+                    "id": "3ca9e2c595634eb6a718ae5aa38b801f",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.dark_outside_on",
+                "last_changed": "2020-10-18T18:26:31.905184+00:00",
+                "last_updated": "2020-10-18T18:26:31.905184+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-10-18T18:41:34.001682+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Lights on at sunset",
+                    "id": "SunsetLightsOn",
+                    "last_triggered": "2020-10-18T00:50:35.315453+00:00"
+                },
+                "context": {
+                    "id": "21e3a83997664bbba9257ccb6f8daa41",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.lights_on_at_sunset",
+                "last_changed": "2020-10-18T18:26:31.905524+00:00",
+                "last_updated": "2020-10-18T18:26:31.905524+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-10-18T18:41:34.001682+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Dark outside off",
+                    "id": "DarkOutsideOff",
+                    "last_triggered": "2020-10-18T15:02:29.011541+00:00"
+                },
+                "context": {
+                    "id": "1b781042338441df8fc006588447fb28",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.dark_outside_off",
+                "last_changed": "2020-10-18T18:26:31.905859+00:00",
+                "last_updated": "2020-10-18T18:26:31.905859+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-10-18T18:41:34.001682+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Lights off at midnight",
+                    "id": "MidnightLightsOff",
+                    "last_triggered": "2020-10-18T07:00:00.178937+00:00"
+                },
+                "context": {
+                    "id": "652bb0808f7a447ab1bf605dc23b49e8",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.lights_off_at_midnight",
+                "last_changed": "2020-10-18T18:26:31.906394+00:00",
+                "last_updated": "2020-10-18T18:26:31.906394+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-10-18T18:41:34.001682+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Garage motion on",
+                    "id": "GarageMotionOn",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "3a9a7cb1ca9c4b7ab0da05d701c17466",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.garage_motion_on",
+                "last_changed": "2020-10-18T18:26:31.906698+00:00",
+                "last_updated": "2020-10-18T18:26:31.906698+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-10-18T18:41:34.001682+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Lights off at sunrise",
+                    "id": "SunriseLightsOff",
+                    "last_triggered": "2020-10-18T15:02:29.273060+00:00"
+                },
+                "context": {
+                    "id": "4636d70d87524e8d8cc8103d6a97651e",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.lights_off_at_sunrise",
+                "last_changed": "2020-10-18T18:26:31.907036+00:00",
+                "last_updated": "2020-10-18T18:26:31.907036+00:00",
+                "state": "on"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

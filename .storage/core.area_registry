@@ -1,0 +1,36 @@
+{
+    "data": {
+        "areas": [
+            {
+                "id": "96947473e7ad4656aafac955110e1812",
+                "name": "Living Room"
+            },
+            {
+                "id": "3f0c837476494f5b8a110bfd67f5e3bf",
+                "name": "Kitchen"
+            },
+            {
+                "id": "08b1d00f8bda4a81aadab1e874bdaaa7",
+                "name": "Master Bedroom"
+            },
+            {
+                "id": "47565292c2f0460499300ee66042e0ec",
+                "name": "Garage"
+            },
+            {
+                "id": "ac902c93d296453fb071be56640a796e",
+                "name": "Elie's Room"
+            },
+            {
+                "id": "4dcfd1a6808a499588e2f22a22a764c1",
+                "name": "Den"
+            },
+            {
+                "id": "60ab129ec66745efbf098dcff410cafe",
+                "name": "Front Yard"
+            }
+        ]
+    },
+    "key": "core.area_registry",
+    "version": 1
+}

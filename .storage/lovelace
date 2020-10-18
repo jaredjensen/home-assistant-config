@@ -1,0 +1,215 @@
+{
+    "data": {
+        "config": {
+            "title": "Home Assistant",
+            "views": [
+                {
+                    "badges": [
+                        "binary_sensor.updater",
+                        "sensor.yr_symbol",
+                        "sensor.zooz_unknown_type2400_id2400_alarm_type",
+                        "sensor.zooz_unknown_type2400_id2400_alarm_level",
+                        "sun.sun"
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                "scene.midnight",
+                                "scene.sunrise",
+                                "scene.sunset"
+                            ],
+                            "title": "Scene",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.living_room_slider_right_outlet"
+                                },
+                                {
+                                    "entity": "switch.living_room_tv_left_outlet"
+                                },
+                                {
+                                    "entity": "switch.living_room_window_outlet"
+                                },
+                                {
+                                    "entity": "switch.den_window_outlet"
+                                },
+                                {
+                                    "entity": "switch.garage_interior_lights"
+                                }
+                            ],
+                            "title": "Downstairs",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.master_bed_lamp_outlet"
+                                },
+                                {
+                                    "entity": "switch.elie_bedside_outlet"
+                                }
+                            ],
+                            "title": "Upstairs",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.front_step_lights_outlet"
+                                },
+                                {
+                                    "entity": "switch.driveway_lights_outlet"
+                                },
+                                {
+                                    "entity": "switch.front_garage_lights_switch"
+                                },
+                                {
+                                    "entity": "switch.deck_light_switch"
+                                },
+                                {
+                                    "entity": "switch.patio_lights_switch"
+                                },
+                                {
+                                    "entity": "switch.studio_deck_light_switch"
+                                }
+                            ],
+                            "title": "Outside",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "zwave.sigma_designs_uzb_zwave_usb_adapter"
+                                },
+                                {
+                                    "entity": "zwave.front_step_lights_outlet"
+                                },
+                                {
+                                    "entity": "zwave.den_window_outlet_switch"
+                                },
+                                {
+                                    "entity": "zwave.extender_outlet"
+                                },
+                                {
+                                    "entity": "zwave.living_room_window_outlet"
+                                },
+                                {
+                                    "entity": "zwave.living_room_tv_left_outlet"
+                                },
+                                {
+                                    "entity": "zwave.elie_bedside_outlet"
+                                },
+                                {
+                                    "entity": "zwave.living_room_slider_right_outlet"
+                                },
+                                {
+                                    "entity": "zwave.garage_banks_outlet"
+                                },
+                                {
+                                    "entity": "zwave.driveway_lights_outlet"
+                                }
+                            ],
+                            "title": "Z-Wave",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "switch.den_window_outlet"
+                            ],
+                            "title": "Switch",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "lights_den",
+                    "title": "Den lights"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "switch.elie_bedside_outlet"
+                            ],
+                            "title": "Switch",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "lights_elie",
+                    "title": "Elie's lights"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "switch.deck_light_switch",
+                                "switch.front_garage_lights_switch",
+                                "switch.patio_lights_switch",
+                                "switch.studio_deck_light_switch"
+                            ],
+                            "title": "Switch",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "lights_exterior",
+                    "title": "Exterior lights"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "switch.front_step_lights_outlet"
+                            ],
+                            "title": "Switch",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "lights_landscaping",
+                    "title": "Landscaping lights"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "switch.living_room_tv_left_outlet",
+                                "switch.living_room_slider_right_outlet",
+                                "switch.living_room_window_outlet"
+                            ],
+                            "title": "Switch",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "lights_living_room",
+                    "title": "Living room lights"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "switch.master_bed_lamp_outlet"
+                            ],
+                            "title": "Switch",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "lights_master_bed",
+                    "title": "Master bed lights"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

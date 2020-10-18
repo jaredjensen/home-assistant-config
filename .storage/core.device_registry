@@ -1,0 +1,273 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [
+                    "6fb5061e7c9c4421985d6ce2aaa8588e"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:0d:6f:00:0b:13:05:58"
+                    ]
+                ],
+                "id": "a1e0e0f4376243159ff6e51ee30b0d63",
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:0d:6f:00:0b:13:05:58"
+                    ]
+                ],
+                "manufacturer": "ZHA",
+                "model": "EZSP",
+                "name": "Zigbee Coordinator",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "fa1c144dde7741b2a986d40707208fba",
+                "identifiers": [
+                    [
+                        "zwave",
+                        1
+                    ]
+                ],
+                "manufacturer": "Z-Wave (Sigma Designs)",
+                "model": "UZB Z-Wave USB Adapter",
+                "name": "Z-Wave (Sigma Designs) UZB Z-Wave USB Adapter",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "47565292c2f0460499300ee66042e0ec",
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "8b27be1767794c55a7295985267b8ee2",
+                "identifiers": [
+                    [
+                        "zwave",
+                        3
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "14288 Duplex Receptacle",
+                "name": "Jasco Products 14288 Duplex Receptacle",
+                "name_by_user": "Outlet by door",
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": "4dcfd1a6808a499588e2f22a22a764c1",
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "29e772a5e3b743098571b89357eedb81",
+                "identifiers": [
+                    [
+                        "zwave",
+                        8
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "14288 Duplex Receptacle",
+                "name": "Jasco Products 14288 Duplex Receptacle",
+                "name_by_user": "Outlet behind couch",
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "6be18f9c2e2f420f8426c05de66c3359",
+                "identifiers": [
+                    [
+                        "zwave",
+                        9
+                    ]
+                ],
+                "manufacturer": "Zooz (Willis Electric)",
+                "model": "Unknown: type=2400, id=2400",
+                "name": "Zooz (Willis Electric) Unknown: type=2400, id=2400",
+                "name_by_user": "Extender outlet",
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": "47565292c2f0460499300ee66042e0ec",
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "497705095bba4712bf25977f9491497d",
+                "identifiers": [
+                    [
+                        "zwave",
+                        10
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "14291 In-Wall Smart Switch",
+                "name": "Jasco Products 14291 In-Wall Smart Switch",
+                "name_by_user": "Interior light switch",
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": "96947473e7ad4656aafac955110e1812",
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "775d3d7eb85443e0b5a681256e6aacfb",
+                "identifiers": [
+                    [
+                        "zwave",
+                        11
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "14288 Duplex Receptacle",
+                "name": "Jasco Products 14288 Duplex Receptacle",
+                "name_by_user": "Outlet under front windows",
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": "96947473e7ad4656aafac955110e1812",
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "436266ce2bbe4340a28f5aaa6554d634",
+                "identifiers": [
+                    [
+                        "zwave",
+                        12
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "14288 Duplex Receptacle",
+                "name": "Jasco Products 14288 Duplex Receptacle",
+                "name_by_user": "Outlet left of fireplace",
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": "ac902c93d296453fb071be56640a796e",
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "c807a9b66ce34618b15d90f5488a7e64",
+                "identifiers": [
+                    [
+                        "zwave",
+                        13
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "14288 Duplex Receptacle",
+                "name": "Jasco Products 14288 Duplex Receptacle",
+                "name_by_user": "Outlet left of bed",
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": "60ab129ec66745efbf098dcff410cafe",
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "d1a6ee9816aa440bafec42dbcd911111",
+                "identifiers": [
+                    [
+                        "zwave",
+                        4
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "14288 Duplex Receptacle",
+                "name": "Jasco Products 14288 Duplex Receptacle",
+                "name_by_user": "Outlet for driveway lights",
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": "96947473e7ad4656aafac955110e1812",
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "d125dccbe61e48f79f8074ec0ea6ac7e",
+                "identifiers": [
+                    [
+                        "zwave",
+                        14
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "14288 Duplex Receptacle",
+                "name": "Jasco Products 14288 Duplex Receptacle",
+                "name_by_user": "Outlet by slider",
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": "47565292c2f0460499300ee66042e0ec",
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "ac7879aa3db94b5db9e97140fe7cdb1b",
+                "identifiers": [
+                    [
+                        "zwave",
+                        15
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "14288 Duplex Receptacle",
+                "name": "Jasco Products 14288 Duplex Receptacle",
+                "name_by_user": "Outlet by gas bank",
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": "47565292c2f0460499300ee66042e0ec",
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "b8a1a37c623c450c98711704aaec164a",
+                "identifiers": [
+                    [
+                        "zwave",
+                        16
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "14291 In-Wall Smart Switch",
+                "name": "Jasco Products 14291 In-Wall Smart Switch",
+                "name_by_user": "Interior light switch",
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

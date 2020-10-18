@@ -1,0 +1,68 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "radio_type": "ezsp",
+                    "usb_path": "/dev/ttyUSB1"
+                },
+                "domain": "zha",
+                "entry_id": "6fb5061e7c9c4421985d6ce2aaa8588e",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "/dev/ttyUSB1",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "wemo",
+                "entry_id": "6eabcc80903d4e57822e7fddf5351f01",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Wemo",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "network_key": "0x71, 0x67, 0x6F, 0xE1, 0xD3, 0x8B, 0x11, 0x37, 0x18, 0x20, 0x7A, 0x0B, 0x24, 0x4E, 0xFC, 0xAB",
+                    "usb_path": "/dev/ttyUSB0"
+                },
+                "domain": "zwave",
+                "entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Z-Wave (import from configuration.yaml)",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "def5c2df6c724b998eb6dd740286cd16",
+                "options": {},
+                "source": "onboarding",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}
