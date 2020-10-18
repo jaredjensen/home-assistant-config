@@ -81,11 +81,36 @@ Commit and push changes to remote repo.
 
 1. In HA web interface, go to Configuration > Z-Wave > Add Node (or Add Node Secure)
 1. Put the device in "add" mode (usually pressing a button)
-1. Go to the Node Information dialog on the Device States page and rename it, e.g.
-   - Name: TV left outlet
-   - Entity ID: switch.tv_left_outlet_switch
-1. Update customize.yaml with same names
-1. Add device to groups and/or automations
+1. Go to Developer Tools > States and rename the entity and device **{room} {position} {type}**. For example:
+   - Name: **Living room slider right outlet**
+   - Entity ID: `switch.living_room_slider_right_outlet`
+   - Device ID: `zwave.living_room_slider_right_outlet`
+1. Update **customize.yaml** with the same values
+1. Add the device to groups and/or automations
+
+## Key Files
+
+| File                          | Purpose                                                             |
+| ----------------------------- | ------------------------------------------------------------------- |
+| .storage/core.config          | JSON file of system info (time zone, location, etc)                 |
+| .storage/core.config_entries  | JSON file of integrations (zwave, wemo, etc)                        |
+| .storage/core.device_registry | JSON file of physical devices                                       |
+| .storage/core.entity_registry | JSON file of virtual entities mapped to devices \*                  |
+| configuration.yaml            | Core HA configuration                                               |
+| secrets.yaml                  | Secrets (password, zwave key, SSL cert, etc)                        |
+| customize.yaml †              | Defines friendly names for entities                                 |
+| automations/\*.yaml †         | Triggers and associated actions                                     |
+| groups/\*.yaml †              | Groups entities to simplify acting on them together                 |
+| scenes/\*.yaml †              | Defines the desired state of a collection of entities and/or groups |
+
+† If entity IDs are changed in core.entity_registry, these files must be manually updated.
+
+A quick way to list entity ID is to copy core.entity_registry to a browser console:
+
+```js
+var x = {copied JSON}
+x.data.entities.map(y => console.log(y.entity_id + ' = ' + y.name))
+```
 
 ## Common Commands
 
@@ -94,6 +119,18 @@ Commit and push changes to remote repo.
 | hassio ha check    | Validate current configuration |
 | hassio ha restart  | Restart homeassistant          |
 | hassio host reboot | Reboots the host machine       |
+
+## Troubleshooting
+
+If HA won't start and you suspect configuration issues, run the `check_config` script to validate your configuration files:
+
+```bash
+# Shell into the container
+docker exec -it home_assistant sh
+
+# Run the check script on the current directory (should be /config)
+hass --script check_config -c .
+```
 
 ## Reference
 
