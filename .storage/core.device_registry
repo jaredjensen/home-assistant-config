@@ -265,6 +265,26 @@
                 "name_by_user": "Interior light switch",
                 "sw_version": null,
                 "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "afd13974256b4b6884b7f4effebb5601",
+                "identifiers": [
+                    [
+                        "zwave",
+                        17
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "Unknown: type=4952, id=3237",
+                "name": "Jasco Products Unknown: type=4952, id=3237",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
             }
         ]
     },

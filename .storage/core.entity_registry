@@ -396,6 +396,24 @@
                 "name": "Garage interior lights",
                 "platform": "zwave",
                 "unique_id": "16-72057594311163904"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "afd13974256b4b6884b7f4effebb5601",
+                "disabled_by": null,
+                "entity_id": "switch.front_entrance_light_switch",
+                "name": "Front entrance lights",
+                "platform": "zwave",
+                "unique_id": "17-72057594327941120"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "afd13974256b4b6884b7f4effebb5601",
+                "disabled_by": null,
+                "entity_id": "zwave.front_entrance_light_switch",
+                "name": "Front entrance lights device",
+                "platform": "zwave",
+                "unique_id": "node-17"
             }
         ]
     },
