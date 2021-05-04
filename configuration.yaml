@@ -28,9 +28,11 @@ frontend:
 
 config:
 
+system_health:
+
 http:
   api_password: !secret http_password
-  base_url: http://192.168.0.208:8123
+  base_url: http://192.168.86.208:8123
   server_port: !secret server_port
   # ssl_certificate: !secret ssl_certificate
   # ssl_key: !secret ssl_key
@@ -59,16 +61,16 @@ input_boolean: !include input_boolean.yaml
 
 wemo:
   static:
-    - 192.168.0.160
-    - 192.168.0.161
-    - 192.168.0.162
-    - 192.168.0.163
-    - 192.168.0.164
-    - 192.168.0.165
+    - 192.168.86.160
+    - 192.168.86.161
+    - 192.168.86.162
+    - 192.168.86.163
+    - 192.168.86.164
+    - 192.168.86.165
 
 media_player:
   - platform: samsungtv
-    host: 192.168.0.187
+    host: 192.168.86.187
     port: 8001
     mac: 28:39:5E:97:04:C7
     name: Samsung TV

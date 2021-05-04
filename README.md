@@ -1,5 +1,12 @@
 # Home Assistant Configuration
 
+[Installation](#installation)  
+[Configuration](#configuration)  
+[Manage Devices](#manage-devices)  
+[Common Commands](#common-commands)  
+[Reference](#reference)  
+
+***
 ## Installation
 
 1. Use [Etcher](https://etcher.io/) to burn [an image](https://www.home-assistant.io/hassio/installation/) to a microSD card.

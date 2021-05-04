@@ -272,13 +272,13 @@
                 "unique_id": "3-72057594093060096"
             },
             {
-                "config_entry_id": null,
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
                 "device_id": null,
                 "disabled_by": null,
-                "entity_id": "switch.front_garage_lights_switch",
-                "name": "Front door and garage lights",
-                "platform": "wemo",
-                "unique_id": "221642K130076E"
+                "entity_id": "switch.front_entrance_lights_switch",
+                "name": "Front entrance lights",
+                "platform": "zwave",
+                "unique_id": "node-17"
             },
             {
                 "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",

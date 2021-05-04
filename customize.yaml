@@ -20,6 +20,8 @@ sensor.linear_wapirz1_motion_sensor_sensor:
   friendly_name: Garage motion sensor
 sensor.linear_wapirz1_motion_sensor_temperature:
   friendly_name: Garage temperature
+sensor.zwavelinear_wapirz1_motion_sensor_alarm_level:
+  friendly_name: Garage motion alarm level
 switch.den_window_outlet:
   friendly_name: Den couch lamp
 switch.deck_light_switch:
@@ -30,8 +32,8 @@ switch.elie_bedside_outlet:
   friendly_name: Elie's nightstand lamp
 switch.extender_outlet:
   friendly_name: Extender outlet
-switch.front_garage_lights_switch:
-  friendly_name: Front door and garage lights
+switch.front_entrance_lights_switch:
+  friendly_name: Front entrance lights
 switch.front_step_lights_outlet:
   friendly_name: Front steps lights
 switch.garage_lights_switch:
@@ -54,10 +56,12 @@ zwave.elie_bedside_outlet:
   friendly_name: Elie's bedside outlet
 zwave.extender_outlet:
   friendly_name: Extender outlet
+zwave.front_entrance_lights_switch:
+  friendly_name: Front entrance lights switch
 zwave.front_step_lights_outlet:
   friendly_name: Front step lights outlet
 zwave.garage_lights_switch:
-  friendly_name: Garage lights switch
+  friendly_name: Garage interior lights switch
 zwave.linear_wapirz1_motion_sensor:
   friendly_name: Garage motion sensor device
 zwave.sigma_designs_uzb_zwave_usb_adapter:
@@ -66,5 +70,3 @@ zwave.living_room_tv_left_outlet:
   friendly_name: Living room TV lamp
 zwave.living_room_window_outlet:
   friendly_name: Living room window outlet
-sensor.zwavelinear_wapirz1_motion_sensor_alarm_level:
-  friendly_name: Garage motion alarm level
