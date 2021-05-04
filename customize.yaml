@@ -32,7 +32,7 @@ switch.elie_bedside_outlet:
   friendly_name: Elie's nightstand lamp
 switch.extender_outlet:
   friendly_name: Extender outlet
-switch.front_entrance_lights_switch:
+switch.front_entrance_light_switch:
   friendly_name: Front entrance lights
 switch.front_step_lights_outlet:
   friendly_name: Front steps lights
@@ -56,7 +56,7 @@ zwave.elie_bedside_outlet:
   friendly_name: Elie's bedside outlet
 zwave.extender_outlet:
   friendly_name: Extender outlet
-zwave.front_entrance_lights_switch:
+zwave.front_entrance_light_switch:
   friendly_name: Front entrance lights switch
 zwave.front_step_lights_outlet:
   friendly_name: Front step lights outlet

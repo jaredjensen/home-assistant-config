@@ -2,6 +2,6 @@ name: Exterior lights
 view: yes
 entities:
   - switch.deck_light_switch
-  - switch.front_entrance_lights_switch
+  - switch.front_entrance_light_switch
   - switch.patio_lights_switch
   - switch.studio_deck_light_switch

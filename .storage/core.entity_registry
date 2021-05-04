@@ -273,15 +273,6 @@
             },
             {
                 "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "switch.front_entrance_lights_switch",
-                "name": "Front entrance lights",
-                "platform": "zwave",
-                "unique_id": "node-17"
-            },
-            {
-                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
                 "device_id": "c807a9b66ce34618b15d90f5488a7e64",
                 "disabled_by": null,
                 "entity_id": "switch.elie_bedside_outlet",
