@@ -63,7 +63,7 @@
                                     "entity": "switch.driveway_lights_outlet"
                                 },
                                 {
-                                    "entity": "switch.front_garage_lights_switch"
+                                    "entity": "switch.front_entrance_switch"
                                 },
                                 {
                                     "entity": "switch.deck_light_switch"
