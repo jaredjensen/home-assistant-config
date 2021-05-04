@@ -88,10 +88,11 @@ Commit and push changes to remote repo.
 
 1. In HA web interface, go to Configuration > Z-Wave > Add Node (or Add Node Secure)
 1. Put the device in "add" mode (usually pressing a button)
-1. Go to Developer Tools > States and rename the entity and device **{room} {position} {type}**. For example:
+1. Go to Configuration > Entity Registry and rename the entity and device **{room} {position} {type}**. For example:
    - Name: **Living room slider right outlet**
    - Entity ID: `switch.living_room_slider_right_outlet`
    - Device ID: `zwave.living_room_slider_right_outlet`
+1. Shell into Docker container on NUC and `git diff .storage/core.entity_registry` to confirm the new entries, then commit and push
 1. Update **customize.yaml** with the same values
 1. Add the device to groups and/or automations
 
