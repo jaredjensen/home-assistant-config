@@ -86,15 +86,43 @@ Commit and push changes to remote repo.
 
 ### Add Device
 
-1. In HA web interface, go to Configuration > Z-Wave > Add Node (or Add Node Secure)
-1. Put the device in "add" mode (usually pressing a button)
-1. Go to Configuration > Entity Registry and rename the entity and device **{room} {position} {type}**. For example:
+#### 1. Add the device to HA
+
+In HA web interface, go to Configuration > Z-Wave > Add Node (or Add Node Secure).  Then, put the device in "add" mode (usually pressing a button).
+
+#### 2. Rename the entities
+
+Go to Configuration > Entity Registry, then rename the entity and device using the convention:
+
+`{platform}.{room}_{position}_{type}`
+
+For example:
    - Name: **Living room slider right outlet**
    - Entity ID: `switch.living_room_slider_right_outlet`
    - Device ID: `zwave.living_room_slider_right_outlet`
-1. Shell into Docker container on NUC and `git diff .storage/core.entity_registry` to confirm the new entries, then commit and push
-1. Update **customize.yaml** with the same values
-1. Add the device to groups and/or automations
+
+#### 3. Commit the entity registry
+
+Shell into Docker container on NUC and `git diff .storage/core.entity_registry` to confirm the new entries, then commit and push.
+
+#### 4. Set a friendly name
+
+Update **customize.yaml**, e.g.
+
+```
+switch.front_entrance_light_switch:
+  friendly_name: Front entrance lights
+zwave.front_entrance_light_switch:
+  friendly_name: Front entrance lights device
+```
+
+#### 5. Add the device to groups and/or automations
+
+Update `groups/*.yaml` and/or `automations/*.yaml`.
+
+#### 6. Update the UI
+
+Update `storage/lovelace` to add the entity to a card.
 
 ## Key Files
 
