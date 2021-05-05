@@ -239,7 +239,7 @@
                 "config_entry_id": null,
                 "device_id": null,
                 "disabled_by": null,
-                "entity_id": "switch.patio_lights_switch",
+                "entity_id": "switch.back_patio_lights_switch",
                 "name": "Patio lights",
                 "platform": "wemo",
                 "unique_id": "221703K1300E9E"
@@ -279,15 +279,6 @@
                 "name": "TV lamp",
                 "platform": "zwave",
                 "unique_id": "12-72057594244055040"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "switch.deck_light_switch",
-                "name": "Deck lights",
-                "platform": "wemo",
-                "unique_id": "221703K1300BE6"
             },
             {
                 "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
@@ -410,7 +401,7 @@
                 "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
                 "device_id": "aba8b0cef0004516b1668b8a42485eb2",
                 "disabled_by": null,
-                "entity_id": "switch.side_side_light_switch",
+                "entity_id": "switch.side_deck_light_switch",
                 "name": "Side deck lights",
                 "platform": "zwave",
                 "unique_id": "18-72057594344718336"

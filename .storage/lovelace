@@ -66,10 +66,10 @@
                                     "entity": "switch.front_entrance_light_switch"
                                 },
                                 {
-                                    "entity": "switch.deck_light_switch"
+                                    "entity": "switch.side_deck_light_switch"
                                 },
                                 {
-                                    "entity": "switch.patio_lights_switch"
+                                    "entity": "switch.back_patio_light_switch"
                                 },
                                 {
                                     "entity": "switch.studio_deck_light_switch"
@@ -151,9 +151,9 @@
                     "cards": [
                         {
                             "entities": [
-                                "switch.deck_light_switch",
                                 "switch.front_entrance_light_switch",
-                                "switch.patio_lights_switch",
+                                "switch.side_deck_light_switch",
+                                "switch.back_patio_lights_switch",
                                 "switch.studio_deck_light_switch"
                             ],
                             "title": "Switch",

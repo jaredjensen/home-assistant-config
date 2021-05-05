@@ -22,10 +22,10 @@ sensor.linear_wapirz1_motion_sensor_temperature:
   friendly_name: Garage temperature
 sensor.zwavelinear_wapirz1_motion_sensor_alarm_level:
   friendly_name: Garage motion alarm level
+switch.back_patio_light_switch:
+  friendly_name: Back patio lights
 switch.den_window_outlet:
   friendly_name: Den couch lamp
-switch.deck_light_switch:
-  friendly_name: Living room deck light
 switch.driveway_lights_outlet:
   friendly_name: Driveway lights
 switch.elie_bedside_outlet:
@@ -40,8 +40,8 @@ switch.garage_lights_switch:
   friendly_name: Garage lights
 switch.master_bed_lamp_outlet:
   friendly_name: Master bedroom lamp
-switch.patio_lights_switch:
-  friendly_name: Patio lights
+switch.side_deck_light_switch:
+  friendly_name: Side deck lights
 switch.studio_deck_light_switch:
   friendly_name: Studio deck light
 switch.living_room_tv_left_outlet:
@@ -50,6 +50,8 @@ switch.living_room_slider_right_outlet:
   friendly_name: Living room couch lamp
 switch.living_room_window_outlet:
   friendly_name: Living room window outlet
+zwave.back_patio_light_switch:
+  friendly_name: Back patio lights device
 zwave.driveway_lights_outlet:
   friendly_name: Driveway lights outlet
 zwave.elie_bedside_outlet:
@@ -64,9 +66,11 @@ zwave.garage_lights_switch:
   friendly_name: Garage interior lights switch
 zwave.linear_wapirz1_motion_sensor:
   friendly_name: Garage motion sensor device
-zwave.sigma_designs_uzb_zwave_usb_adapter:
-  friendly_name: ZWave stick device
 zwave.living_room_tv_left_outlet:
   friendly_name: Living room TV lamp
 zwave.living_room_window_outlet:
   friendly_name: Living room window outlet
+zwave.side_deck_light_switch:
+  friendly_name: Side deck lights device
+zwave.sigma_designs_uzb_zwave_usb_adapter:
+  friendly_name: ZWave stick device
