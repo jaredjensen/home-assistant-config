@@ -405,6 +405,24 @@
                 "name": "Front entrance lights device",
                 "platform": "zwave",
                 "unique_id": "node-17"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "aba8b0cef0004516b1668b8a42485eb2",
+                "disabled_by": null,
+                "entity_id": "switch.side_patio_light_switch",
+                "name": "Side patio lights",
+                "platform": "zwave",
+                "unique_id": "18-72057594344718336"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "aba8b0cef0004516b1668b8a42485eb2",
+                "disabled_by": null,
+                "entity_id": "zwave.side_patio_light_switch",
+                "name": "Side patio lights device",
+                "platform": "zwave",
+                "unique_id": "node-18"
             }
         ]
     },
