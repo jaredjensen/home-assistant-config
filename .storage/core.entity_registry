@@ -405,6 +405,33 @@
                 "name": "Side deck lights",
                 "platform": "zwave",
                 "unique_id": "18-72057594344718336"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.studio_deck_light",
+                "name": null,
+                "platform": "wemo",
+                "unique_id": "221703K1300EC5"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "4443f0bb152e425e9fbba52e6f43a1d4",
+                "disabled_by": null,
+                "entity_id": "zwave.back_patio_light_switch",
+                "name": "Back patio lights device",
+                "platform": "zwave",
+                "unique_id": "node-19"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "4443f0bb152e425e9fbba52e6f43a1d4",
+                "disabled_by": null,
+                "entity_id": "switch.back_patio_light_switch",
+                "name": "Back patio lights",
+                "platform": "zwave",
+                "unique_id": "19-72057594361495552"
             }
         ]
     },
