@@ -410,7 +410,7 @@
                 "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
                 "device_id": "aba8b0cef0004516b1668b8a42485eb2",
                 "disabled_by": null,
-                "entity_id": "switch.side_side_light_switch",
+                "entity_id": "switch.side_deck_light_switch",
                 "name": "Side deck lights",
                 "platform": "zwave",
                 "unique_id": "18-72057594344718336"
