@@ -3,5 +3,5 @@ view: yes
 entities:
   - switch.front_entrance_light_switch
   - switch.side_deck_light_switch
-  - switch.back_patio_lights_switch
+  - switch.back_patio_light_switch
   - switch.studio_deck_light_switch
