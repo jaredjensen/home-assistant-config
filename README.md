@@ -124,6 +124,10 @@ Update `groups/*.yaml` and/or `automations/*.yaml`.
 
 Update `storage/lovelace` to add the entity to a card.
 
+#### 7. Update and restart
+
+Commit all changes to the repo, pull them to HA, and then restart.
+
 ## Key Files
 
 | File                          | Purpose                                                             |
