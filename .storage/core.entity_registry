@@ -239,15 +239,6 @@
                 "config_entry_id": null,
                 "device_id": null,
                 "disabled_by": null,
-                "entity_id": "switch.back_patio_lights_switch",
-                "name": "Patio lights",
-                "platform": "wemo",
-                "unique_id": "221703K1300E9E"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
                 "entity_id": "switch.master_bed_lamp_outlet",
                 "name": "Master bedroom lamp",
                 "platform": "wemo",
