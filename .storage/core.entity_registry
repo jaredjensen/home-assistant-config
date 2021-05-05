@@ -239,15 +239,6 @@
                 "config_entry_id": null,
                 "device_id": null,
                 "disabled_by": null,
-                "entity_id": "switch.studio_deck_light_switch",
-                "name": "Studio deck light",
-                "platform": "wemo",
-                "unique_id": "221703K1300EC5"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
                 "entity_id": "switch.patio_lights_switch",
                 "name": "Patio lights",
                 "platform": "wemo",
@@ -410,19 +401,19 @@
                 "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
                 "device_id": "aba8b0cef0004516b1668b8a42485eb2",
                 "disabled_by": null,
-                "entity_id": "switch.side_patio_light_switch",
-                "name": "Side patio lights",
+                "entity_id": "zwave.side_deck_light_switch",
+                "name": "Side deck lights device",
                 "platform": "zwave",
-                "unique_id": "18-72057594344718336"
+                "unique_id": "node-18"
             },
             {
                 "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
                 "device_id": "aba8b0cef0004516b1668b8a42485eb2",
                 "disabled_by": null,
-                "entity_id": "zwave.side_patio_light_switch",
-                "name": "Side patio lights device",
+                "entity_id": "switch.side_side_light_switch",
+                "name": "Side deck lights",
                 "platform": "zwave",
-                "unique_id": "node-18"
+                "unique_id": "18-72057594344718336"
             }
         ]
     },
