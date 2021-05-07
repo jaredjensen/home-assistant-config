@@ -11,15 +11,6 @@
                 "unique_id": "e10e2c6c-9e48-4f95-b8f2-78bce689e93b"
             },
             {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "switch.tv_fireplace_lamp",
-                "name": null,
-                "platform": "wemo",
-                "unique_id": "221535K0100629"
-            },
-            {
                 "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
                 "device_id": "fa1c144dde7741b2a986d40707208fba",
                 "disabled_by": null,
@@ -389,15 +380,6 @@
                 "unique_id": "18-72057594344718336"
             },
             {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "switch.studio_deck_light",
-                "name": null,
-                "platform": "wemo",
-                "unique_id": "221703K1300EC5"
-            },
-            {
                 "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
                 "device_id": "4443f0bb152e425e9fbba52e6f43a1d4",
                 "disabled_by": null,
@@ -432,6 +414,24 @@
                 "name": "Master bedroom lamp device",
                 "platform": "zwave",
                 "unique_id": "node-21"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "e5e79758d0d2498883907cd6a82f0275",
+                "disabled_by": null,
+                "entity_id": "zwave.studio_deck_light_switch",
+                "name": "Studio deck light device",
+                "platform": "zwave",
+                "unique_id": "node-22"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "e5e79758d0d2498883907cd6a82f0275",
+                "disabled_by": null,
+                "entity_id": "switch.studio_deck_light_switch",
+                "name": "Studio deck light",
+                "platform": "zwave",
+                "unique_id": "22-72057594411827200"
             }
         ]
     },
