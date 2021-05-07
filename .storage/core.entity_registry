@@ -236,15 +236,6 @@
                 "unique_id": "9-72057594193723392"
             },
             {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "switch.master_bed_lamp_outlet",
-                "name": "Master bedroom lamp",
-                "platform": "wemo",
-                "unique_id": "221535K0100384"
-            },
-            {
                 "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
                 "device_id": "8b27be1767794c55a7295985267b8ee2",
                 "disabled_by": null,
@@ -423,6 +414,24 @@
                 "name": "Back patio lights",
                 "platform": "zwave",
                 "unique_id": "19-72057594361495552"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "546040b94eab47f9b40da83c1cc898ba",
+                "disabled_by": null,
+                "entity_id": "switch.master_bed_lamp_outlet",
+                "name": "Master bedroom lamp",
+                "platform": "zwave",
+                "unique_id": "21-72057594395049984"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "546040b94eab47f9b40da83c1cc898ba",
+                "disabled_by": null,
+                "entity_id": "zwave.master_bed_lamp_outlet",
+                "name": "Master bedroom lamp device",
+                "platform": "zwave",
+                "unique_id": "node-21"
             }
         ]
     },
