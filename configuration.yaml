@@ -51,6 +51,9 @@ sensor:
   - platform: yr
 tts:
   - platform: google_translate
+  
+frontend:
+  themes: !include_dir_merge_named themes
 
 group: !include_dir_named groups
 automation: !include_dir_merge_list automations
