@@ -305,6 +305,86 @@
                 "name_by_user": null,
                 "sw_version": null,
                 "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "4443f0bb152e425e9fbba52e6f43a1d4",
+                "identifiers": [
+                    [
+                        "zwave",
+                        19
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "Unknown: type=4952, id=3237",
+                "name": "Jasco Products Unknown: type=4952, id=3237",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "546040b94eab47f9b40da83c1cc898ba",
+                "identifiers": [
+                    [
+                        "zwave",
+                        21
+                    ]
+                ],
+                "manufacturer": "Inovelli",
+                "model": "Unknown: type=ff00, id=ff0c",
+                "name": "Inovelli Unknown: type=ff00, id=ff0c",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "e5e79758d0d2498883907cd6a82f0275",
+                "identifiers": [
+                    [
+                        "zwave",
+                        22
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "Unknown: type=4952, id=3237",
+                "name": "Jasco Products Unknown: type=4952, id=3237",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "94abdfda0e9f4fc08c1ae8706572b99f",
+                "identifiers": [
+                    [
+                        "zwave",
+                        23
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "Unknown: type=4952, id=3234",
+                "name": "Jasco Products Unknown: type=4952, id=3234",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
             }
         ]
     },
