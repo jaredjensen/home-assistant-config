@@ -33,6 +33,9 @@
                                     "entity": "switch.living_room_window_outlet"
                                 },
                                 {
+                                    "entity": "switch.living_room_stair_outlet"
+                                },
+                                {
                                     "entity": "switch.den_window_outlet"
                                 },
                                 {
