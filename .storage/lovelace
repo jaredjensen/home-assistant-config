@@ -102,6 +102,9 @@
                                     "entity": "zwave.living_room_tv_left_outlet"
                                 },
                                 {
+                                    "entity": "zwave.living_room_stair_outlet"
+                                },
+                                {
                                     "entity": "zwave.elie_bedside_outlet"
                                 },
                                 {
@@ -187,7 +190,8 @@
                             "entities": [
                                 "switch.living_room_tv_left_outlet",
                                 "switch.living_room_slider_right_outlet",
-                                "switch.living_room_window_outlet"
+                                "switch.living_room_window_outlet",
+                                "switch.living_room_stair_outlet"
                             ],
                             "title": "Switch",
                             "type": "entities"
