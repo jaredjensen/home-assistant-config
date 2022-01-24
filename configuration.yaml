@@ -22,10 +22,6 @@ zha:
   usb_path: /dev/ttyUSB1
   database_path: zigbee.db
 
-#introduction:
-
-frontend:
-
 config:
 
 system_health:
