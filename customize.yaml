@@ -44,6 +44,8 @@ switch.side_deck_light_switch:
   friendly_name: Side deck lights
 switch.studio_deck_light_switch:
   friendly_name: Studio deck light
+switch.living_room_stair_outlet:
+  friendly_name: Living room rocker lamp
 switch.living_room_tv_left_outlet:
   friendly_name: Living room TV lamp
 switch.living_room_slider_right_outlet:
@@ -66,6 +68,8 @@ zwave.garage_lights_switch:
   friendly_name: Garage interior lights switch
 zwave.linear_wapirz1_motion_sensor:
   friendly_name: Garage motion sensor device
+zwave.living_room_stair_outlet:
+  friendly_name: Living room rocker lamp device
 zwave.living_room_tv_left_outlet:
   friendly_name: Living room TV lamp
 zwave.living_room_window_outlet:

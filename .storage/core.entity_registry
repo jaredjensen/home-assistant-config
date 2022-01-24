@@ -432,6 +432,24 @@
                 "name": "Studio deck light",
                 "platform": "zwave",
                 "unique_id": "22-72057594411827200"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "94abdfda0e9f4fc08c1ae8706572b99f",
+                "disabled_by": null,
+                "entity_id": "switch.living_room_stair_outlet",
+                "name": "Living room rocker lamp",
+                "platform": "zwave",
+                "unique_id": "23-72057594428604416"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "94abdfda0e9f4fc08c1ae8706572b99f",
+                "disabled_by": null,
+                "entity_id": "zwave.living_room_stair_outlet",
+                "name": "Living room rocker lamp device",
+                "platform": "zwave",
+                "unique_id": "node-23"
             }
         ]
     },
