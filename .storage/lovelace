@@ -52,6 +52,9 @@
                                 },
                                 {
                                     "entity": "switch.elie_bedside_outlet"
+                                },
+                                {
+                                    "entity": "light.master_bedroom_dimmer"
                                 }
                             ],
                             "title": "Upstairs",

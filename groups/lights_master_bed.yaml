@@ -2,3 +2,4 @@ name: Master bed lights
 view: yes
 entities:
   - switch.master_bed_lamp_outlet
+  - light.master_bedroom_dimmer
