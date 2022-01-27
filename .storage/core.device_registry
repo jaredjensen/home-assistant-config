@@ -87,7 +87,7 @@
                 "via_device_id": "fa1c144dde7741b2a986d40707208fba"
             },
             {
-                "area_id": null,
+                "area_id": "47565292c2f0460499300ee66042e0ec",
                 "config_entries": [
                     "aae134ab961f4ef4bbc60ba86810bfd6"
                 ],
@@ -187,7 +187,7 @@
                 "via_device_id": "fa1c144dde7741b2a986d40707208fba"
             },
             {
-                "area_id": "60ab129ec66745efbf098dcff410cafe",
+                "area_id": "13809415ec7848d28fa875649d1a21a2",
                 "config_entries": [
                     "aae134ab961f4ef4bbc60ba86810bfd6"
                 ],
@@ -242,7 +242,7 @@
                 "manufacturer": "Jasco Products",
                 "model": "14288 Duplex Receptacle",
                 "name": "Jasco Products 14288 Duplex Receptacle",
-                "name_by_user": "Outlet by gas bank",
+                "name_by_user": "Outlet by compressor",
                 "sw_version": null,
                 "via_device_id": "fa1c144dde7741b2a986d40707208fba"
             },
@@ -267,7 +267,7 @@
                 "via_device_id": "fa1c144dde7741b2a986d40707208fba"
             },
             {
-                "area_id": "60ab129ec66745efbf098dcff410cafe",
+                "area_id": "13809415ec7848d28fa875649d1a21a2",
                 "config_entries": [
                     "aae134ab961f4ef4bbc60ba86810bfd6"
                 ],
@@ -287,7 +287,7 @@
                 "via_device_id": "fa1c144dde7741b2a986d40707208fba"
             },
             {
-                "area_id": null,
+                "area_id": "13809415ec7848d28fa875649d1a21a2",
                 "config_entries": [
                     "aae134ab961f4ef4bbc60ba86810bfd6"
                 ],
@@ -302,12 +302,12 @@
                 "manufacturer": "Jasco Products",
                 "model": "Unknown: type=4952, id=3237",
                 "name": "Jasco Products Unknown: type=4952, id=3237",
-                "name_by_user": null,
+                "name_by_user": "Side deck lights",
                 "sw_version": null,
                 "via_device_id": "fa1c144dde7741b2a986d40707208fba"
             },
             {
-                "area_id": null,
+                "area_id": "13809415ec7848d28fa875649d1a21a2",
                 "config_entries": [
                     "aae134ab961f4ef4bbc60ba86810bfd6"
                 ],
@@ -322,12 +322,12 @@
                 "manufacturer": "Jasco Products",
                 "model": "Unknown: type=4952, id=3237",
                 "name": "Jasco Products Unknown: type=4952, id=3237",
-                "name_by_user": null,
+                "name_by_user": "Back patio lights",
                 "sw_version": null,
                 "via_device_id": "fa1c144dde7741b2a986d40707208fba"
             },
             {
-                "area_id": null,
+                "area_id": "08b1d00f8bda4a81aadab1e874bdaaa7",
                 "config_entries": [
                     "aae134ab961f4ef4bbc60ba86810bfd6"
                 ],
@@ -342,12 +342,12 @@
                 "manufacturer": "Inovelli",
                 "model": "Unknown: type=ff00, id=ff0c",
                 "name": "Inovelli Unknown: type=ff00, id=ff0c",
-                "name_by_user": null,
+                "name_by_user": "Master bedroom lamp",
                 "sw_version": null,
                 "via_device_id": "fa1c144dde7741b2a986d40707208fba"
             },
             {
-                "area_id": null,
+                "area_id": "13809415ec7848d28fa875649d1a21a2",
                 "config_entries": [
                     "aae134ab961f4ef4bbc60ba86810bfd6"
                 ],
@@ -362,12 +362,12 @@
                 "manufacturer": "Jasco Products",
                 "model": "Unknown: type=4952, id=3237",
                 "name": "Jasco Products Unknown: type=4952, id=3237",
-                "name_by_user": null,
+                "name_by_user": "Studio deck light",
                 "sw_version": null,
                 "via_device_id": "fa1c144dde7741b2a986d40707208fba"
             },
             {
-                "area_id": null,
+                "area_id": "96947473e7ad4656aafac955110e1812",
                 "config_entries": [
                     "aae134ab961f4ef4bbc60ba86810bfd6"
                 ],
@@ -382,7 +382,27 @@
                 "manufacturer": "Jasco Products",
                 "model": "Unknown: type=4952, id=3234",
                 "name": "Jasco Products Unknown: type=4952, id=3234",
-                "name_by_user": null,
+                "name_by_user": "Living room rocker lamp",
+                "sw_version": null,
+                "via_device_id": "fa1c144dde7741b2a986d40707208fba"
+            },
+            {
+                "area_id": "08b1d00f8bda4a81aadab1e874bdaaa7",
+                "config_entries": [
+                    "aae134ab961f4ef4bbc60ba86810bfd6"
+                ],
+                "connections": [],
+                "id": "366a4fb259884e7ca8d756c4a52e0e3b",
+                "identifiers": [
+                    [
+                        "zwave",
+                        24
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "Unknown: type=4944, id=3235",
+                "name": "Jasco Products Unknown: type=4944, id=3235",
+                "name_by_user": "Master bedroom dimmer",
                 "sw_version": null,
                 "via_device_id": "fa1c144dde7741b2a986d40707208fba"
             }

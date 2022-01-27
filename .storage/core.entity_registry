@@ -450,6 +450,24 @@
                 "name": "Living room rocker lamp device",
                 "platform": "zwave",
                 "unique_id": "node-23"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "366a4fb259884e7ca8d756c4a52e0e3b",
+                "disabled_by": null,
+                "entity_id": "zwave.master_bedroom_dimmer",
+                "name": "Master bedroom dimmer device",
+                "platform": "zwave",
+                "unique_id": "node-24"
+            },
+            {
+                "config_entry_id": "aae134ab961f4ef4bbc60ba86810bfd6",
+                "device_id": "366a4fb259884e7ca8d756c4a52e0e3b",
+                "disabled_by": null,
+                "entity_id": "light.master_bedroom_dimmer",
+                "name": "Master bedroom dimmer",
+                "platform": "zwave",
+                "unique_id": "24-72057594445398017"
             }
         ]
     },

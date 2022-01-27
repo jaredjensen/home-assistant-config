@@ -1,3 +1,5 @@
+light.master_bedroom_dimmer:
+  friendly_name: Master bedroom dimmer
 media_player.garage:
   friendly_name: Garage Sonos
 media_player.master_bedroom:
@@ -74,6 +76,8 @@ zwave.living_room_tv_left_outlet:
   friendly_name: Living room TV lamp
 zwave.living_room_window_outlet:
   friendly_name: Living room window outlet
+zwave.master_bedroom_dimmer:
+  friendly_name: Master bedroom dimmer device
 zwave.side_deck_light_switch:
   friendly_name: Side deck lights device
 zwave.sigma_designs_uzb_zwave_usb_adapter:
